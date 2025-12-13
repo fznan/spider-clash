@@ -31,37 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 尼日利亚 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 尼日利亚 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: VMESS节点2-ipv6 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: www.bing.com
   - name: 新加坡 V2CROSS.COM - undefinedms
     type: vmess
     server: 68.183.178.131
@@ -727,6 +696,63 @@ proxies:
       path: /
       headers:
         Host: hk20.ssylianjie2.com
+  - name: VMESS节点2-ipv6 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:2013::8
+    port: 62211
+    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: www.bing.com
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 尼日利亚 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+  - name: 🇭🇰HK_1|1.4MB/s - undefinedms
+    type: vmess
+    server: eb894086-t70f40-t7luxf-tng5.hkt.gotochinatown.net
+    port: 80
+    uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
   - name: 🇨🇦 _CA_加拿大 - undefinedms
     type: vmess
     server: 108.181.10.17
@@ -792,28 +818,6 @@ proxies:
       path: /
       headers:
         Host: ld2.shabijichang.com
-  - name: 🇬🇧 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧 英国 伦敦Choopa数据中心 - undefinedms
-    type: vmess
-    server: 108.61.197.235
-    port: 36713
-    uuid: 42031a35-b71e-4845-e1c8-6478acb96613
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /42031a35-b71e-4845-e1c8-6478acb96613
-      headers:
-        Host: 108.61.197.235
   - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
     type: vmess
     server: 104.17.18.26
@@ -963,9 +967,6 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - VMESS节点2-ipv6 - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
       - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1019,13 +1020,16 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
+      - VMESS节点2-ipv6 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 尼日利亚 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 🇭🇰HK_1|1.4MB/s - undefinedms
       - 🇨🇦 _CA_加拿大 - undefinedms
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
       - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
-      - 🇬🇧 英国 V2CROSS.COM - undefinedms
-      - 🇬🇧 英国 伦敦Choopa数据中心 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms
@@ -1045,9 +1049,6 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - VMESS节点2-ipv6 - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
       - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1101,13 +1102,16 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
+      - VMESS节点2-ipv6 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 尼日利亚 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 🇭🇰HK_1|1.4MB/s - undefinedms
       - 🇨🇦 _CA_加拿大 - undefinedms
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
       - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
-      - 🇬🇧 英国 V2CROSS.COM - undefinedms
-      - 🇬🇧 英国 伦敦Choopa数据中心 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms

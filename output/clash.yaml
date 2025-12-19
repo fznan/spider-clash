@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: TG-@vvkj11 - 3ms
+  - name: TG-@vvkj11 - 6ms
     type: vmess
     server: 23.227.39.11
     port: 8080
@@ -18,11 +18,33 @@ proxies:
       path: /1IKYjV0r/
       headers:
         Host: dongtaiwang15.dtku47.xyz
-  - name: 香港 电讯盈科有限公司 - 369ms
+  - name: 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 331ms
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
+    server: v8.hdacd.com
+    port: 30808
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK-203.198.28.145-1002 - 1169ms
+    type: vmess
+    server: aflzzul.meiquankongjian.com
+    port: 52513
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: aflzzul.meiquankongjian.com
+  - name: 英国 V2CROSS.COM - 65ms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
@@ -36,29 +58,25 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 517ms
+  - name: 印度 V2CROSS.COM - 205ms
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK-203.198.28.145-1002 - 761ms
-    type: vmess
-    server: aflzzul.meiquankongjian.com
-    port: 52513
-    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    server: 103.97.203.220
+    port: 550
+    uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /564dfa20/
-      headers:
-        Host: aflzzul.meiquankongjian.com
-  - name: 英国 V2CROSS.COM - 68ms
+    network: tcp
+  - name: 印度 V2CROSS.COM - 203ms
+    type: vmess
+    server: 103.97.203.220
+    port: 550
+    uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - 63ms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -67,7 +85,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 CloudFlare节点 - 347ms
+  - name: 美国 CloudFlare节点 - 230ms
     type: vmess
     server: t1.620720.xyz
     port: 8443
@@ -80,7 +98,7 @@ proxies:
       path: /
       headers:
         Host: t1.620720.xyz
-  - name: 🏁RELAY-104.19.38.62-1113 - 2ms
+  - name: 🏁RELAY-104.19.38.62-1113 - 6ms
     type: vmess
     server: 104.19.38.62
     port: 2086
@@ -93,7 +111,7 @@ proxies:
       path: /
       headers:
         Host: ip006.freegradely.xyz
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 6ms
     type: vmess
     server: 104.21.96.1
     port: 8443
@@ -106,7 +124,7 @@ proxies:
       path: /89c344f2
       headers:
         Host: ff.kncc2.top
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 7ms
     type: vmess
     server: 104.16.155.10
     port: 8880
@@ -119,7 +137,7 @@ proxies:
       path: /dabai.in104.24.185.219
       headers:
         Host: 100-151-81-36.s4.db-link01.top
-  - name: 美国 CloudFlare节点 - 400ms
+  - name: 美国 CloudFlare节点 - 632ms
     type: vmess
     server: s5.cn-db.top
     port: 2082
@@ -132,7 +150,7 @@ proxies:
       path: /dabai.in172.64.23.14
       headers:
         Host: 100-219-162-241.s5.cn-db.top
-  - name: 美国 CloudFlare节点 - 325ms
+  - name: 美国 CloudFlare节点 - 581ms
     type: vmess
     server: www.speedtest.net
     port: 80
@@ -145,7 +163,7 @@ proxies:
       path: /da87uoih
       headers:
         Host: eu-2.hihu.net
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 6ms
     type: vmess
     server: 104.17.221.248
     port: 80
@@ -158,7 +176,7 @@ proxies:
       path: /dabai.in104.17.169.115
       headers:
         Host: 100-49-141-209.s1.db-link02.top
-  - name: 美国 CloudFlare节点 - 2ms
+  - name: 美国 CloudFlare节点 - 6ms
     type: vmess
     server: 104.18.3.180
     port: 2053
@@ -171,7 +189,7 @@ proxies:
       path: /4w56yert243r
       headers:
         Host: kus.htg8866.us.kg
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 6ms
     type: vmess
     server: 104.18.3.180
     port: 2087
@@ -184,7 +202,7 @@ proxies:
       path: /4w56yert243r
       headers:
         Host: kus.htg8866.us.kg
-  - name: 美国 CloudFlare节点 - 2ms
+  - name: 美国 CloudFlare节点 - 6ms
     type: vmess
     server: 104.19.218.236
     port: 8443
@@ -197,7 +215,7 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🏁RELAY-198.41.208.172-3916 - 2ms
+  - name: 🏁RELAY-198.41.208.172-3916 - 7ms
     type: vmess
     server: 198.41.208.172
     port: 443
@@ -210,7 +228,7 @@ proxies:
       path: /shirker
       headers:
         Host: 198.41.208.172
-  - name: 🏁RELAY-104.19.21.240-0106 - 3ms
+  - name: 🏁RELAY-104.19.21.240-0106 - 7ms
     type: vmess
     server: 104.19.21.240
     port: 2052
@@ -223,7 +241,7 @@ proxies:
       path: /
       headers:
         Host: 104.19.21.240
-  - name: 🏁RELAY-188.42.89.174-8984 - 3ms
+  - name: 🏁RELAY-188.42.89.174-8984 - 6ms
     type: vmess
     server: 188.42.89.174
     port: 443
@@ -236,7 +254,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 188.42.89.174
-  - name: 🏁RELAY-104.19.47.49-0723 - 3ms
+  - name: 🏁RELAY-104.19.47.49-0723 - 6ms
     type: vmess
     server: 104.19.47.49
     port: 8443
@@ -249,7 +267,7 @@ proxies:
       path: /
       headers:
         Host: hk01.linkitnow.net
-  - name: 🇺🇸US-3.89.216.162-1754 - 105ms
+  - name: 🇺🇸US-3.89.216.162-1754 - 152ms
     type: vmess
     server: cooing-luxuriant-blue.glitch.me
     port: 443
@@ -262,16 +280,16 @@ proxies:
       path: /api
       headers:
         Host: cooing-luxuriant-blue.glitch.me
-  - name: 🇨🇳 中国 V2CROSS.COM - 361ms
+  - name: 🇺🇸US_2|1.5MB/s - 700ms
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
+    server: v29.hdacd.com
+    port: 30829
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇬🇧 英国 V2CROSS.COM - 67ms
+  - name: 🇺🇸US_3|1.5MB/s - 63ms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -280,7 +298,34 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - 3ms
+  - name: 🇺🇸US_4|1.3MB/s - 65ms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|2.2MB/s - 399ms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇬🇧 英国 V2CROSS.COM - 65ms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - 6ms
     type: vmess
     server: 104.17.18.26
     port: 80
@@ -293,7 +338,7 @@ proxies:
       path: /
       headers:
         Host: 104.17.18.26
-  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - 2ms
+  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - 6ms
     type: vmess
     server: 104.26.8.44
     port: 80
@@ -306,7 +351,7 @@ proxies:
       path: /
       headers:
         Host: 104.26.8.44
-  - name: 🇳🇬 尼日利亚 V2CROSS.COM - 190ms
+  - name: 🇳🇬 尼日利亚 V2CROSS.COM - 210ms
     type: vmess
     server: 160.119.196.92
     port: 36334
@@ -315,7 +360,7 @@ proxies:
     cipher: auto
     tls: false
     network: none
-  - name: 🇺🇸 _US_美国_5 - 3ms
+  - name: 🇺🇸 _US_美国_5 - 6ms
     type: vmess
     server: 104.21.75.246
     port: 80
@@ -328,20 +373,7 @@ proxies:
       path: /
       headers:
         Host: 104.21.75.246
-  - name: 🇺🇸 美国 CloudFlare节点 - 850ms
-    type: vmess
-    server: yx1.xn--11x.org
-    port: 2052
-    uuid: 705a4b47-c2d7-4c0e-8963-e52a18a4070b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2112136940.online.video.downloader.0123456789ru.xn--11x.org
-  - name: 🇨🇳|CN|@clashjd|1 - 688ms
+  - name: 🇨🇳|CN|@clashjd|1 - 879ms
     type: vmess
     server: hk16.ssylianjie1.com
     port: 50255
@@ -354,7 +386,7 @@ proxies:
       path: /
       headers:
         Host: hk16.ssylianjie1.com
-  - name: 🇨🇳|CN|@clashjd|2 - 856ms
+  - name: 🇨🇳|CN|@clashjd|2 - 869ms
     type: vmess
     server: hk22.ssylianjie2.com
     port: 11131
@@ -367,7 +399,7 @@ proxies:
       path: /
       headers:
         Host: hk22.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|5 - 912ms
+  - name: 🇨🇳|CN|@clashjd|5 - 881ms
     type: vmess
     server: hk13.ssylianjie1.com
     port: 50253
@@ -380,7 +412,7 @@ proxies:
       path: /
       headers:
         Host: hk13.ssylianjie1.com
-  - name: 🇨🇳|CN|@clashjd|7 - 947ms
+  - name: 🇨🇳|CN|@clashjd|7 - 925ms
     type: vmess
     server: hk18.ssylianjie2.com
     port: 11127
@@ -393,7 +425,7 @@ proxies:
       path: /
       headers:
         Host: hk18.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|8 - 949ms
+  - name: 🇨🇳|CN|@clashjd|8 - 925ms
     type: vmess
     server: hk05.ssylianjie1.com
     port: 50204
@@ -406,7 +438,7 @@ proxies:
       path: /
       headers:
         Host: hk05.ssylianjie1.com
-  - name: 🇨🇳|CN|@clashjd|9 - 954ms
+  - name: 🇨🇳|CN|@clashjd|9 - 1043ms
     type: vmess
     server: hk17.ssylianjie2.com
     port: 11126
@@ -419,7 +451,7 @@ proxies:
       path: /
       headers:
         Host: hk17.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|14 - 1046ms
+  - name: 🇨🇳|CN|@clashjd|14 - 1043ms
     type: vmess
     server: hk19.ssylianjie2.com
     port: 11128
@@ -432,7 +464,7 @@ proxies:
       path: /
       headers:
         Host: hk19.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|21 - 1097ms
+  - name: 🇨🇳|CN|@clashjd|21 - 539ms
     type: vmess
     server: hk23.ssylianjie2.com
     port: 11132
@@ -445,7 +477,7 @@ proxies:
       path: /
       headers:
         Host: hk23.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|34 - 420ms
+  - name: 🇨🇳|CN|@clashjd|34 - 283ms
     type: vmess
     server: jp02.ssylianjie1.com
     port: 50211
@@ -458,7 +490,7 @@ proxies:
       path: /
       headers:
         Host: jp02.ssylianjie1.com
-  - name: 🇨🇳|CN|@clashjd|37 - 420ms
+  - name: 🇨🇳|CN|@clashjd|37 - 344ms
     type: vmess
     server: hk07.ssylianjie1.com
     port: 50206
@@ -471,7 +503,7 @@ proxies:
       path: /
       headers:
         Host: hk07.ssylianjie1.com
-  - name: 🇨🇳|CN|@clashjd|60 - 593ms
+  - name: 🇨🇳|CN|@clashjd|60 - 651ms
     type: vmess
     server: us08.ssylianjie2.com
     port: 50670
@@ -484,7 +516,7 @@ proxies:
       path: /
       headers:
         Host: us08.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|61 - 703ms
+  - name: 🇨🇳|CN|@clashjd|61 - 692ms
     type: vmess
     server: us02.ssylianjie1.com
     port: 50231
@@ -497,7 +529,7 @@ proxies:
       path: /
       headers:
         Host: us02.ssylianjie1.com
-  - name: 🇨🇳|CN|@clashjd|63 - 702ms
+  - name: 🇨🇳|CN|@clashjd|63 - 695ms
     type: vmess
     server: us03.ssylianjie2.com
     port: 11115
@@ -510,7 +542,7 @@ proxies:
       path: /
       headers:
         Host: us03.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|64 - 807ms
+  - name: 🇨🇳|CN|@clashjd|64 - 697ms
     type: vmess
     server: us10.ssylianjie2.com
     port: 11112
@@ -523,7 +555,7 @@ proxies:
       path: /
       headers:
         Host: us10.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|83 - 808ms
+  - name: 🇨🇳|CN|@clashjd|83 - 699ms
     type: vmess
     server: hk21.ssylianjie2.com
     port: 11130
@@ -536,7 +568,7 @@ proxies:
       path: /
       headers:
         Host: hk21.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|89 - 344ms
+  - name: 🇨🇳|CN|@clashjd|89 - 809ms
     type: vmess
     server: us09.ssylianjie2.com
     port: 11111
@@ -549,7 +581,7 @@ proxies:
       path: /
       headers:
         Host: us09.ssylianjie2.com
-  - name: 🇨🇳|CN|@clashjd|104 - 256ms
+  - name: 🇨🇳|CN|@clashjd|104 - 537ms
     type: vmess
     server: hk20.ssylianjie2.com
     port: 11129
@@ -566,101 +598,109 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - 3ms
-      - 香港 电讯盈科有限公司 - 369ms
+      - TG-@vvkj11 - 6ms
+      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 331ms
+      - 🇭🇰HK-203.198.28.145-1002 - 1169ms
+      - 英国 V2CROSS.COM - 65ms
       - 英国 V2CROSS.COM - 67ms
-      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 517ms
-      - 🇭🇰HK-203.198.28.145-1002 - 761ms
-      - 英国 V2CROSS.COM - 68ms
-      - 美国 CloudFlare节点 - 347ms
-      - 🏁RELAY-104.19.38.62-1113 - 2ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 400ms
-      - 美国 CloudFlare节点 - 325ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 2ms
-      - 🏁RELAY-198.41.208.172-3916 - 2ms
-      - 🏁RELAY-104.19.21.240-0106 - 3ms
-      - 🏁RELAY-188.42.89.174-8984 - 3ms
-      - 🏁RELAY-104.19.47.49-0723 - 3ms
-      - 🇺🇸US-3.89.216.162-1754 - 105ms
-      - 🇨🇳 中国 V2CROSS.COM - 361ms
-      - 🇬🇧 英国 V2CROSS.COM - 67ms
-      - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - 3ms
-      - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - 2ms
-      - 🇳🇬 尼日利亚 V2CROSS.COM - 190ms
-      - 🇺🇸 _US_美国_5 - 3ms
-      - 🇺🇸 美国 CloudFlare节点 - 850ms
-      - 🇨🇳|CN|@clashjd|1 - 688ms
-      - 🇨🇳|CN|@clashjd|2 - 856ms
-      - 🇨🇳|CN|@clashjd|5 - 912ms
-      - 🇨🇳|CN|@clashjd|7 - 947ms
-      - 🇨🇳|CN|@clashjd|8 - 949ms
-      - 🇨🇳|CN|@clashjd|9 - 954ms
-      - 🇨🇳|CN|@clashjd|14 - 1046ms
-      - 🇨🇳|CN|@clashjd|21 - 1097ms
-      - 🇨🇳|CN|@clashjd|34 - 420ms
-      - 🇨🇳|CN|@clashjd|37 - 420ms
-      - 🇨🇳|CN|@clashjd|60 - 593ms
-      - 🇨🇳|CN|@clashjd|61 - 703ms
-      - 🇨🇳|CN|@clashjd|63 - 702ms
-      - 🇨🇳|CN|@clashjd|64 - 807ms
-      - 🇨🇳|CN|@clashjd|83 - 808ms
-      - 🇨🇳|CN|@clashjd|89 - 344ms
-      - 🇨🇳|CN|@clashjd|104 - 256ms
+      - 印度 V2CROSS.COM - 205ms
+      - 印度 V2CROSS.COM - 203ms
+      - 英国 V2CROSS.COM - 63ms
+      - 美国 CloudFlare节点 - 230ms
+      - 🏁RELAY-104.19.38.62-1113 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 7ms
+      - 美国 CloudFlare节点 - 632ms
+      - 美国 CloudFlare节点 - 581ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 🏁RELAY-198.41.208.172-3916 - 7ms
+      - 🏁RELAY-104.19.21.240-0106 - 7ms
+      - 🏁RELAY-188.42.89.174-8984 - 6ms
+      - 🏁RELAY-104.19.47.49-0723 - 6ms
+      - 🇺🇸US-3.89.216.162-1754 - 152ms
+      - 🇺🇸US_2|1.5MB/s - 700ms
+      - 🇺🇸US_3|1.5MB/s - 63ms
+      - 🇺🇸US_4|1.3MB/s - 65ms
+      - 🇺🇸US_6|2.2MB/s - 399ms
+      - 🇬🇧 英国 V2CROSS.COM - 65ms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - 6ms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - 6ms
+      - 🇳🇬 尼日利亚 V2CROSS.COM - 210ms
+      - 🇺🇸 _US_美国_5 - 6ms
+      - 🇨🇳|CN|@clashjd|1 - 879ms
+      - 🇨🇳|CN|@clashjd|2 - 869ms
+      - 🇨🇳|CN|@clashjd|5 - 881ms
+      - 🇨🇳|CN|@clashjd|7 - 925ms
+      - 🇨🇳|CN|@clashjd|8 - 925ms
+      - 🇨🇳|CN|@clashjd|9 - 1043ms
+      - 🇨🇳|CN|@clashjd|14 - 1043ms
+      - 🇨🇳|CN|@clashjd|21 - 539ms
+      - 🇨🇳|CN|@clashjd|34 - 283ms
+      - 🇨🇳|CN|@clashjd|37 - 344ms
+      - 🇨🇳|CN|@clashjd|60 - 651ms
+      - 🇨🇳|CN|@clashjd|61 - 692ms
+      - 🇨🇳|CN|@clashjd|63 - 695ms
+      - 🇨🇳|CN|@clashjd|64 - 697ms
+      - 🇨🇳|CN|@clashjd|83 - 699ms
+      - 🇨🇳|CN|@clashjd|89 - 809ms
+      - 🇨🇳|CN|@clashjd|104 - 537ms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - 3ms
-      - 香港 电讯盈科有限公司 - 369ms
+      - TG-@vvkj11 - 6ms
+      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 331ms
+      - 🇭🇰HK-203.198.28.145-1002 - 1169ms
+      - 英国 V2CROSS.COM - 65ms
       - 英国 V2CROSS.COM - 67ms
-      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 517ms
-      - 🇭🇰HK-203.198.28.145-1002 - 761ms
-      - 英国 V2CROSS.COM - 68ms
-      - 美国 CloudFlare节点 - 347ms
-      - 🏁RELAY-104.19.38.62-1113 - 2ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 400ms
-      - 美国 CloudFlare节点 - 325ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 2ms
-      - 🏁RELAY-198.41.208.172-3916 - 2ms
-      - 🏁RELAY-104.19.21.240-0106 - 3ms
-      - 🏁RELAY-188.42.89.174-8984 - 3ms
-      - 🏁RELAY-104.19.47.49-0723 - 3ms
-      - 🇺🇸US-3.89.216.162-1754 - 105ms
-      - 🇨🇳 中国 V2CROSS.COM - 361ms
-      - 🇬🇧 英国 V2CROSS.COM - 67ms
-      - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - 3ms
-      - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - 2ms
-      - 🇳🇬 尼日利亚 V2CROSS.COM - 190ms
-      - 🇺🇸 _US_美国_5 - 3ms
-      - 🇺🇸 美国 CloudFlare节点 - 850ms
-      - 🇨🇳|CN|@clashjd|1 - 688ms
-      - 🇨🇳|CN|@clashjd|2 - 856ms
-      - 🇨🇳|CN|@clashjd|5 - 912ms
-      - 🇨🇳|CN|@clashjd|7 - 947ms
-      - 🇨🇳|CN|@clashjd|8 - 949ms
-      - 🇨🇳|CN|@clashjd|9 - 954ms
-      - 🇨🇳|CN|@clashjd|14 - 1046ms
-      - 🇨🇳|CN|@clashjd|21 - 1097ms
-      - 🇨🇳|CN|@clashjd|34 - 420ms
-      - 🇨🇳|CN|@clashjd|37 - 420ms
-      - 🇨🇳|CN|@clashjd|60 - 593ms
-      - 🇨🇳|CN|@clashjd|61 - 703ms
-      - 🇨🇳|CN|@clashjd|63 - 702ms
-      - 🇨🇳|CN|@clashjd|64 - 807ms
-      - 🇨🇳|CN|@clashjd|83 - 808ms
-      - 🇨🇳|CN|@clashjd|89 - 344ms
-      - 🇨🇳|CN|@clashjd|104 - 256ms
+      - 印度 V2CROSS.COM - 205ms
+      - 印度 V2CROSS.COM - 203ms
+      - 英国 V2CROSS.COM - 63ms
+      - 美国 CloudFlare节点 - 230ms
+      - 🏁RELAY-104.19.38.62-1113 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 7ms
+      - 美国 CloudFlare节点 - 632ms
+      - 美国 CloudFlare节点 - 581ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 美国 CloudFlare节点 - 6ms
+      - 🏁RELAY-198.41.208.172-3916 - 7ms
+      - 🏁RELAY-104.19.21.240-0106 - 7ms
+      - 🏁RELAY-188.42.89.174-8984 - 6ms
+      - 🏁RELAY-104.19.47.49-0723 - 6ms
+      - 🇺🇸US-3.89.216.162-1754 - 152ms
+      - 🇺🇸US_2|1.5MB/s - 700ms
+      - 🇺🇸US_3|1.5MB/s - 63ms
+      - 🇺🇸US_4|1.3MB/s - 65ms
+      - 🇺🇸US_6|2.2MB/s - 399ms
+      - 🇬🇧 英国 V2CROSS.COM - 65ms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - 6ms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - 6ms
+      - 🇳🇬 尼日利亚 V2CROSS.COM - 210ms
+      - 🇺🇸 _US_美国_5 - 6ms
+      - 🇨🇳|CN|@clashjd|1 - 879ms
+      - 🇨🇳|CN|@clashjd|2 - 869ms
+      - 🇨🇳|CN|@clashjd|5 - 881ms
+      - 🇨🇳|CN|@clashjd|7 - 925ms
+      - 🇨🇳|CN|@clashjd|8 - 925ms
+      - 🇨🇳|CN|@clashjd|9 - 1043ms
+      - 🇨🇳|CN|@clashjd|14 - 1043ms
+      - 🇨🇳|CN|@clashjd|21 - 539ms
+      - 🇨🇳|CN|@clashjd|34 - 283ms
+      - 🇨🇳|CN|@clashjd|37 - 344ms
+      - 🇨🇳|CN|@clashjd|60 - 651ms
+      - 🇨🇳|CN|@clashjd|61 - 692ms
+      - 🇨🇳|CN|@clashjd|63 - 695ms
+      - 🇨🇳|CN|@clashjd|64 - 697ms
+      - 🇨🇳|CN|@clashjd|83 - 699ms
+      - 🇨🇳|CN|@clashjd|89 - 809ms
+      - 🇨🇳|CN|@clashjd|104 - 537ms
 rules:
   - MATCH,Proxy

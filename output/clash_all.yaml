@@ -31,24 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 香港 电讯盈科有限公司 - undefinedms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
     type: vmess
     server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
@@ -110,6 +92,42 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 印度 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.97.203.220
+    port: 550
+    uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 印度 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.97.203.220
+    port: 550
+    uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 新加坡 V2CROSS.COM - undefinedms
     type: vmess
     server: 68.183.178.131
@@ -554,19 +572,42 @@ proxies:
       path: /api
       headers:
         Host: cooing-luxuriant-blue.glitch.me
-  - name: VMESS节点2-ipv6 - undefinedms
+  - name: 🇺🇸US_2|1.5MB/s - undefinedms
     type: vmess
-    server: 2001:bc8:32d7:2013::8
-    port: 62211
-    uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_3|1.5MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: www.bing.com
+    network: tcp
+  - name: 🇺🇸US_4|1.3MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|2.2MB/s - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇨🇦 _CA_加拿大 - undefinedms
     type: vmess
     server: 108.181.10.17
@@ -593,15 +634,6 @@ proxies:
       path: /tg@hkaa0
       headers:
         Host: 107.167.182.230
-  - name: 🇨🇳 中国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
     type: vmess
     server: flkf2.shabijichang.com
@@ -802,28 +834,6 @@ proxies:
       path: /
       headers:
         Host: 104.21.75.246
-  - name: 🇺🇸 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: yx1.xn--11x.org
-    port: 2052
-    uuid: 705a4b47-c2d7-4c0e-8963-e52a18a4070b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2112136940.online.video.downloader.0123456789ru.xn--11x.org
-  - name: 🇺🇸 美国 加州 - undefinedms
-    type: vmess
-    server: 64.69.40.135
-    port: 10678
-    uuid: c5aec222-3b11-4af8-f01f-f9145b0caabb
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
   - name: 🇨🇳|CN|@clashjd|1 - undefinedms
     type: vmess
     server: hk16.ssylianjie1.com
@@ -1051,13 +1061,15 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 印度 V2CROSS.COM - undefinedms
+      - 印度 V2CROSS.COM - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
       - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1094,10 +1106,12 @@ proxy-groups:
       - 🏁RELAY-172.64.141.75-3098 - undefinedms
       - 🏁RELAY-104.19.47.49-0723 - undefinedms
       - 🇺🇸US-3.89.216.162-1754 - undefinedms
-      - VMESS节点2-ipv6 - undefinedms
+      - 🇺🇸US_2|1.5MB/s - undefinedms
+      - 🇺🇸US_3|1.5MB/s - undefinedms
+      - 🇺🇸US_4|1.3MB/s - undefinedms
+      - 🇺🇸US_6|2.2MB/s - undefinedms
       - 🇨🇦 _CA_加拿大 - undefinedms
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
-      - 🇨🇳 中国 V2CROSS.COM - undefinedms
       - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
@@ -1114,8 +1128,6 @@ proxy-groups:
       - 🇺🇸 _US_美国_3 - undefinedms
       - 🇺🇸 _US_美国_4 - undefinedms
       - 🇺🇸 _US_美国_5 - undefinedms
-      - 🇺🇸 美国 CloudFlare节点 - undefinedms
-      - 🇺🇸 美国 加州 - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -1141,13 +1153,15 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 印度 V2CROSS.COM - undefinedms
+      - 印度 V2CROSS.COM - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
       - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1184,10 +1198,12 @@ proxy-groups:
       - 🏁RELAY-172.64.141.75-3098 - undefinedms
       - 🏁RELAY-104.19.47.49-0723 - undefinedms
       - 🇺🇸US-3.89.216.162-1754 - undefinedms
-      - VMESS节点2-ipv6 - undefinedms
+      - 🇺🇸US_2|1.5MB/s - undefinedms
+      - 🇺🇸US_3|1.5MB/s - undefinedms
+      - 🇺🇸US_4|1.3MB/s - undefinedms
+      - 🇺🇸US_6|2.2MB/s - undefinedms
       - 🇨🇦 _CA_加拿大 - undefinedms
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
-      - 🇨🇳 中国 V2CROSS.COM - undefinedms
       - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
@@ -1204,8 +1220,6 @@ proxy-groups:
       - 🇺🇸 _US_美国_3 - undefinedms
       - 🇺🇸 _US_美国_4 - undefinedms
       - 🇺🇸 _US_美国_5 - undefinedms
-      - 🇺🇸 美国 CloudFlare节点 - undefinedms
-      - 🇺🇸 美国 加州 - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms

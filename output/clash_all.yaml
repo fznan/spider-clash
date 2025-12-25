@@ -101,37 +101,37 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 V2CROSS.COM - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.136.12.37
-    port: 38141
-    uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: none
+    network: tcp
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: cf.fovi.tk
+    server: sy4.620720.xyz
     port: 443
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /eisasqa
+      path: /
       headers:
-        Host: foxlux.fovi.tk
-  - name: 美国 V2CROSS.COM - undefinedms
+        Host: sy4.620720.xyz
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.136.12.37
-    port: 38141
-    uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: none
+    network: tcp
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: t1.620720.xyz
@@ -454,6 +454,297 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇨🇦 _CA_加拿大 - undefinedms
+    type: vmess
+    server: 108.181.10.17
+    port: 80
+    uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 108.181.10.17
+  - name: 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 107.167.182.230
+    port: 80
+    uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /tg@hkaa0
+      headers:
+        Host: 107.167.182.230
+  - name: 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
+    type: vmess
+    server: flkf2.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: flkf2.shabijichang.com
+  - name: 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
+    type: vmess
+    server: mrb2.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: mrb2.shabijichang.com
+  - name: 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
+    type: vmess
+    server: ld2.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ld2.shabijichang.com
+  - name: 🇬🇧 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
+    type: vmess
+    server: 104.17.18.26
+    port: 80
+    uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.17.18.26
+  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
+    type: vmess
+    server: 104.26.8.44
+    port: 80
+    uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.26.8.44
+  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms
+    type: vmess
+    server: mm2.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: mm2.shabijichang.com
+  - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_4 - undefinedms
+    type: vmess
+    server: mm3.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: mm3.shabijichang.com
+  - name: 🇳🇱 _US_美国->🇳🇱_NL_荷兰 - undefinedms
+    type: vmess
+    server: 45.199.138.191
+    port: 30000
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /path/1696251522438
+      headers:
+        Host: 45.199.138.191
+  - name: 🇷🇺 俄罗斯 新西伯利亚justhost - undefinedms
+    type: vmess
+    server: 2.56.242.210
+    port: 34895
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯 - undefinedms
+    type: vmess
+    server: jd3.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: jd3.shabijichang.com
+  - name: 🇺🇸 _US_美国_1 - undefinedms
+    type: vmess
+    server: 206.168.190.219
+    port: 2082
+    uuid: e31ca750-71f7-11ee-b920-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: 206.168.190.219
+  - name: 🇺🇸 _US_美国_2 - undefinedms
+    type: vmess
+    server: wnd2.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: wnd2.shabijichang.com
+  - name: 🇺🇸 _US_美国_3 - undefinedms
+    type: vmess
+    server: 45.199.138.186
+    port: 30000
+    uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /path/1696682720138
+      headers:
+        Host: 45.199.138.186
+  - name: 🇺🇸 _US_美国_4 - undefinedms
+    type: vmess
+    server: wnd3.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: wnd3.shabijichang.com
+  - name: 🇺🇸 _US_美国_5 - undefinedms
+    type: vmess
+    server: 104.21.75.246
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.21.75.246
+  - name: 🇺🇸 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /e6395c20
+      headers:
+        Host: hgtrojan.zabc.net
+  - name: 🇺🇸 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxpol.fovi.tk
+  - name: 🇺🇸 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sy4.620720.xyz
+  - name: 🇺🇸 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+  - name: 🇺🇸 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: c7.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: c7.620720.xyz
   - name: 🇨🇳|CN|@clashjd|1 - undefinedms
     type: vmess
     server: hk16.ssylianjie1.com
@@ -684,6 +975,15 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸 US_188 - undefinedms
     type: vmess
     server: 216.238.87.47
@@ -705,9 +1005,9 @@ proxy-groups:
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - 香港 电讯盈科有限公司 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
@@ -734,6 +1034,29 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇨🇦 _CA_加拿大 - undefinedms
+      - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
+      - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
+      - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
+      - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
+      - 🇬🇧 英国 V2CROSS.COM - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_4 - undefinedms
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰 - undefinedms
+      - 🇷🇺 俄罗斯 新西伯利亚justhost - undefinedms
+      - 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯 - undefinedms
+      - 🇺🇸 _US_美国_1 - undefinedms
+      - 🇺🇸 _US_美国_2 - undefinedms
+      - 🇺🇸 _US_美国_3 - undefinedms
+      - 🇺🇸 _US_美国_4 - undefinedms
+      - 🇺🇸 _US_美国_5 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -752,6 +1075,7 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
       - 🇫🇷 法国 09 - undefinedms
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
       - 🇺🇸 US_188 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -767,9 +1091,9 @@ proxy-groups:
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - 香港 电讯盈科有限公司 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
@@ -796,6 +1120,29 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇨🇦 _CA_加拿大 - undefinedms
+      - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
+      - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
+      - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
+      - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
+      - 🇬🇧 英国 V2CROSS.COM - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms
+      - 🇮🇳 _US_美国->🇮🇳_IN_印度_4 - undefinedms
+      - 🇳🇱 _US_美国->🇳🇱_NL_荷兰 - undefinedms
+      - 🇷🇺 俄罗斯 新西伯利亚justhost - undefinedms
+      - 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯 - undefinedms
+      - 🇺🇸 _US_美国_1 - undefinedms
+      - 🇺🇸 _US_美国_2 - undefinedms
+      - 🇺🇸 _US_美国_3 - undefinedms
+      - 🇺🇸 _US_美国_4 - undefinedms
+      - 🇺🇸 _US_美国_5 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
+      - 🇺🇸 美国 CloudFlare节点 - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -814,6 +1161,7 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
       - 🇫🇷 法国 09 - undefinedms
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
       - 🇺🇸 US_188 - undefinedms
 rules:
   - MATCH,Proxy

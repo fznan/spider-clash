@@ -40,20 +40,42 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 日本 东京阿里云 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: n1753598452.wpg27.xyz
+    port: 443
+    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: n1753598452.wpg27.xyz
+  - name: 香港 电讯盈科有限公司 - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 西班牙 V2CROSS.COM - undefinedms
+  - name: 尼日利亚 V2CROSS.COM - undefinedms
     type: vmess
-    server: 185.221.23.251
-    port: 29431
-    uuid: 8b78363e-3c3a-44ab-f0d8-f13d950c8572
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 中国 阿里云 - undefinedms
+    type: vmess
+    server: 8.217.90.175
+    port: 51000
+    uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
     alterId: 0
     cipher: auto
     tls: false
@@ -684,15 +706,6 @@ proxies:
       path: /
       headers:
         Host: hk20.ssylianjie2.com
-  - name: 🇯🇵JP_6|3.2MB/s - undefinedms
-    type: vmess
-    server: npofb-g03.jp01-nn-vm0.entry.fr0528.art
-    port: 21583
-    uuid: 5c44094f-43bb-301c-9878-37fd5e87d358
-    alterId: 1
-    cipher: auto
-    tls: true
-    network: tcp
   - name: 🇫🇷 法国 09 - undefinedms
     type: vmess
     server: v35.hdacd.com
@@ -727,8 +740,10 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 西班牙 V2CROSS.COM - undefinedms
+      - 日本 东京阿里云 - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
+      - 尼日利亚 V2CROSS.COM - undefinedms
+      - 中国 阿里云 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
@@ -779,7 +794,6 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
-      - 🇯🇵JP_6|3.2MB/s - undefinedms
       - 🇫🇷 法国 09 - undefinedms
       - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
       - 🇺🇸 US_188 - undefinedms
@@ -792,8 +806,10 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 西班牙 V2CROSS.COM - undefinedms
+      - 日本 东京阿里云 - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
+      - 尼日利亚 V2CROSS.COM - undefinedms
+      - 中国 阿里云 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
@@ -844,7 +860,6 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
-      - 🇯🇵JP_6|3.2MB/s - undefinedms
       - 🇫🇷 法国 09 - undefinedms
       - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
       - 🇺🇸 US_188 - undefinedms

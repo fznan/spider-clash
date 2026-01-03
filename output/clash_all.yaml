@@ -31,42 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 香港 电讯盈科有限公司 - undefinedms
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 尼日利亚 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
   - name: 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
     type: vmess
     server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
@@ -128,19 +92,24 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: 🇲🇾MY_1|3.6MB/s - undefinedms
+  - name: 香港 电讯盈科有限公司 - undefinedms
     type: vmess
-    server: 23.27.28.103
-    port: 80
-    uuid: rootface-@pwn1337-🎄
+    server: 202.85.53.179
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /𒉭𓆩@rootface𒆜 Merry Christmas 🎄🥳🎁𒉭 @pwn_1337 TELEGRAM
-      headers:
-        Host: 23.27.28.103
+    network: tcp
+  - name: 香港 电讯盈科有限公司 - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 英国 伦敦DigitalOcean数据中心 - undefinedms
     type: vmess
     server: cg1c16.waimaojd.com
@@ -485,6 +454,15 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇯🇵JP_3|1.4MB/s - undefinedms
+    type: vmess
+    server: 7cmy5-g03.jp04-1d-vm0.entry.fr0528.art
+    port: 446
+    uuid: 0a503c30-d319-31c1-9346-038ecbb13de8
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇨🇳|CN|@clashjd|1 - undefinedms
     type: vmess
     server: hk16.ssylianjie1.com
@@ -739,16 +717,13 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - 🇲🇾MY_1|3.6MB/s - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -777,6 +752,7 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇯🇵JP_3|1.4MB/s - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -805,16 +781,13 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - 🇲🇾MY_1|3.6MB/s - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -843,6 +816,7 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇯🇵JP_3|1.4MB/s - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms

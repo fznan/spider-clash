@@ -5,6 +5,122 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: TG-@vvkj11 - undefinedms
+    type: vmess
+    server: 23.227.39.11
+    port: 8080
+    uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /1IKYjV0r/
+      headers:
+        Host: dongtaiwang15.dtku47.xyz
+  - name: TG-@vvkj11 - undefinedms
+    type: vmess
+    server: 109.104.152.220
+    port: 23099
+    uuid: 5e3ce6a7-170e-4939-9aae-c8fefb35a7ea
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /HzuOihB6/
+      headers:
+        Host: 109.104.152.220
+  - name: 美国 华盛顿Cogent通信公司 - undefinedms
+    type: vmess
+    server: 38.76.144.22
+    port: 443
+    uuid: c63aa0a7-589b-4bc7-c10f-72cfda242fff
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 北美地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 立陶宛 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 185.81.166.99
+    port: 44480
+    uuid: 38efd521-5755-4acf-eb1a-00ff70829ae5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 立陶宛 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 185.81.166.99
+    port: 53693
+    uuid: 2e453903-1df6-4540-ff07-09c7565fa14e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 立陶宛 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 185.81.166.99
+    port: 54740
+    uuid: cf760744-420b-4935-f19f-25620678290d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 立陶宛 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 185.81.166.99
+    port: 18871
+    uuid: 74ce3176-ab0f-4354-a2c9-7f927b9c1c84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 立陶宛 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 185.81.166.99
+    port: 17955
+    uuid: ed88c8be-1408-4c3c-a87e-8b4843f42482
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
   - name: 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
     type: vmess
     server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
@@ -66,72 +182,6 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: TG-@vvkj11 - undefinedms
-    type: vmess
-    server: 23.227.39.11
-    port: 8080
-    uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /1IKYjV0r/
-      headers:
-        Host: dongtaiwang15.dtku47.xyz
-  - name: TG-@vvkj11 - undefinedms
-    type: vmess
-    server: 109.104.152.220
-    port: 23099
-    uuid: 5e3ce6a7-170e-4939-9aae-c8fefb35a7ea
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /HzuOihB6/
-      headers:
-        Host: 109.104.152.220
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: c7.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: c7.620720.xyz
-  - name: 巴西 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 189.1.226.131
-    port: 2555
-    uuid: 417e992f-8f12-4027-bf90-980850234585
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 印度 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.160.100.86
-    port: 44222
-    uuid: f703b128-2d32-4cdb-9608-f33c2d58abcc
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 巴西 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 189.1.226.131
-    port: 2555
-    uuid: 417e992f-8f12-4027-bf90-980850234585
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: cf.fovi.tk
@@ -467,11 +517,29 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇩🇪DE_2|1.0MB/s - undefinedms
+  - name: 🇩🇪DE_3|2.6MB/s - undefinedms
     type: vmess
-    server: pl37.salar4040.com
-    port: 44701
-    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
+    server: 92.246.87.170
+    port: 18355
+    uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 🇺🇸US_5|1.0MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|1.9MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
@@ -728,17 +796,23 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 美国 华盛顿Cogent通信公司 - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 巴西 V2CROSS.COM - undefinedms
-      - 印度 V2CROSS.COM - undefinedms
-      - 巴西 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
@@ -766,7 +840,9 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇩🇪DE_2|1.0MB/s - undefinedms
+      - 🇩🇪DE_3|2.6MB/s - undefinedms
+      - 🇺🇸US_5|1.0MB/s - undefinedms
+      - 🇺🇸US_6|1.9MB/s - undefinedms
       - 🇫🇷 法国 09 - undefinedms
       - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
       - 🇺🇸 US_188 - undefinedms
@@ -793,17 +869,23 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 美国 华盛顿Cogent通信公司 - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
+      - 立陶宛 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 巴西 V2CROSS.COM - undefinedms
-      - 印度 V2CROSS.COM - undefinedms
-      - 巴西 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
@@ -831,7 +913,9 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇩🇪DE_2|1.0MB/s - undefinedms
+      - 🇩🇪DE_3|2.6MB/s - undefinedms
+      - 🇺🇸US_5|1.0MB/s - undefinedms
+      - 🇺🇸US_6|1.9MB/s - undefinedms
       - 🇫🇷 法国 09 - undefinedms
       - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
       - 🇺🇸 US_188 - undefinedms

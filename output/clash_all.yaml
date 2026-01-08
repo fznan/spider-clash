@@ -92,6 +92,68 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 北美地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 北美地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 日本 V2CROSS.COM - undefinedms
+    type: vmess
+    server: seoul02.zgjok.com
+    port: 443
+    uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: seoul02.zgjok.com
   - name: 🇨🇳|CN|@clashjd|1 - undefinedms
     type: vmess
     server: hk16.ssylianjie1.com
@@ -313,24 +375,19 @@ proxies:
       path: /
       headers:
         Host: hk20.ssylianjie2.com
-  - name: 北美地区 V2CROSS.COM - undefinedms
+  - name: 🇫🇷FR_1|1.1MB/s - undefinedms
     type: vmess
-    server: 23.138.148.47
-    port: 42507
-    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
     alterId: 0
-    cipher: auto
+    cipher: chacha20-poly1305
     tls: false
-    network: none
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-511952424.mcitel.co
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: cf.fovi.tk
@@ -666,84 +723,6 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇫🇷FR_1|1.3MB/s - undefinedms
-    type: vmess
-    server: zula.ir
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: chacha20-poly1305
-    tls: false
-    network: ws
-    ws-opts:
-      path: /nasnet/cdn
-      headers:
-        Host: nasnet-511952424.mcitel.co
-  - name: 🇭🇰HK_1|1.3MB/s - undefinedms
-    type: vmess
-    server: hkt.gotochinatown.net
-    port: 80
-    uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - name: 🇭🇰HK_2|1.1MB/s - undefinedms
-    type: vmess
-    server: 5896789c-t8lts0-tqruo0-1pqhp.hkt.gotochinatown.net
-    port: 80
-    uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: 🇭🇰HK_3|1.0MB/s - undefinedms
-    type: vmess
-    server: e9027d48-t8lts0-tc2x42-n09f.hkt.gotochinatown.net
-    port: 80
-    uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: 🇭🇰HK_4|1.6MB/s - undefinedms
-    type: vmess
-    server: 119ea9de-t8lts0-tbpkla-1otc2.hkt.gotochinatown.net
-    port: 80
-    uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: 🇭🇰HK_5|1.2MB/s - undefinedms
-    type: vmess
-    server: 851325db-t8lts0-tk4rx8-1n7d9.hkt.gotochinatown.net
-    port: 80
-    uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -755,6 +734,12 @@ proxy-groups:
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 日本 V2CROSS.COM - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -772,8 +757,7 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
-      - 北美地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 🇫🇷FR_1|1.1MB/s - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
@@ -801,12 +785,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷FR_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_2|1.1MB/s - undefinedms
-      - 🇭🇰HK_3|1.0MB/s - undefinedms
-      - 🇭🇰HK_4|1.6MB/s - undefinedms
-      - 🇭🇰HK_5|1.2MB/s - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -820,6 +798,12 @@ proxy-groups:
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 日本 V2CROSS.COM - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -837,8 +821,7 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
-      - 北美地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 🇫🇷FR_1|1.1MB/s - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
@@ -866,11 +849,5 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷FR_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_2|1.1MB/s - undefinedms
-      - 🇭🇰HK_3|1.0MB/s - undefinedms
-      - 🇭🇰HK_4|1.6MB/s - undefinedms
-      - 🇭🇰HK_5|1.2MB/s - undefinedms
 rules:
   - MATCH,Proxy

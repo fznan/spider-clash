@@ -66,15 +66,6 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -101,6 +92,60 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 以色列 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 149.88.95.94
+    port: 40741
+    uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 北美地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 以色列 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 149.88.95.217
+    port: 18937
+    uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 以色列 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 149.88.95.94
+    port: 35760
+    uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 以色列 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 149.88.95.217
+    port: 40741
+    uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: cf.fovi.tk
@@ -436,24 +481,6 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇭🇰HK_1|1.9MB/s - undefinedms
-    type: vmess
-    server: ncgddx.gdsxrk.com
-    port: 25210
-    uuid: 623787ef-7786-4572-abf5-0180892558aa
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_2|1.4MB/s - undefinedms
-    type: vmess
-    server: ncgdyd.gdsxrk.com
-    port: 25210
-    uuid: 623787ef-7786-4572-abf5-0180892558aa
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇨🇳|CN|@clashjd|1 - undefinedms
     type: vmess
     server: hk16.ssylianjie1.com
@@ -675,6 +702,71 @@ proxies:
       path: /
       headers:
         Host: hk20.ssylianjie2.com
+  - name: 🇭🇰HK_2|1.2MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇭🇰HK_3|1.3MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇭🇰HK_4|1.0MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇫🇷FR_2|2.6MB/s - undefinedms
+    type: vmess
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: 🇭🇰HK_5|1.4MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: 336501b6-51d2-11ee-a993-f23c9164ca5d
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -684,9 +776,14 @@ proxy-groups:
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
@@ -714,8 +811,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇭🇰HK_1|1.9MB/s - undefinedms
-      - 🇭🇰HK_2|1.4MB/s - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -733,6 +828,11 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
+      - 🇭🇰HK_2|1.2MB/s - undefinedms
+      - 🇭🇰HK_3|1.3MB/s - undefinedms
+      - 🇭🇰HK_4|1.0MB/s - undefinedms
+      - 🇫🇷FR_2|2.6MB/s - undefinedms
+      - 🇭🇰HK_5|1.4MB/s - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -744,9 +844,14 @@ proxy-groups:
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
@@ -774,8 +879,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇭🇰HK_1|1.9MB/s - undefinedms
-      - 🇭🇰HK_2|1.4MB/s - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -793,5 +896,10 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
+      - 🇭🇰HK_2|1.2MB/s - undefinedms
+      - 🇭🇰HK_3|1.3MB/s - undefinedms
+      - 🇭🇰HK_4|1.0MB/s - undefinedms
+      - 🇫🇷FR_2|2.6MB/s - undefinedms
+      - 🇭🇰HK_5|1.4MB/s - undefinedms
 rules:
   - MATCH,Proxy

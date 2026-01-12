@@ -92,42 +92,29 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
+  - name: 北美地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 香港 电讯盈科有限公司 - undefinedms
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
     type: vmess
-    server: 156.233.232.192
+    server: 156.233.232.177
     port: 24004
     uuid: 582fcb35-20a0-452c-e179-4c759c62c494
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sy4.620720.xyz
-  - name: 以色列 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 149.88.95.217
-    port: 18937
-    uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 以色列 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 149.88.95.217
-    port: 18937
-    uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
     alterId: 0
     cipher: auto
     tls: false
@@ -180,19 +167,6 @@ proxies:
       path: /
       headers:
         Host: t1.620720.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sy4.620720.xyz
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: 104.21.96.1
@@ -467,15 +441,19 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇯🇵JP_4|1.1MB/s - undefinedms
+  - name: 🇭🇰HK_4|1.0MB/s - undefinedms
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47083
-    uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
-    alterId: 0
+    server: 0b21a9da-t8t8g0-tbc0ig-1ssud.hkt.gotochinatown.net
+    port: 80
+    uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+    alterId: 2
     cipher: auto
     tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -487,14 +465,12 @@ proxy-groups:
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 以色列 V2CROSS.COM - undefinedms
-      - 以色列 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 印度 V2CROSS.COM - undefinedms
@@ -518,7 +494,7 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇯🇵JP_4|1.1MB/s - undefinedms
+      - 🇭🇰HK_4|1.0MB/s - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -532,14 +508,12 @@ proxy-groups:
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 以色列 V2CROSS.COM - undefinedms
-      - 以色列 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 印度 V2CROSS.COM - undefinedms
@@ -563,6 +537,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇯🇵JP_4|1.1MB/s - undefinedms
+      - 🇭🇰HK_4|1.0MB/s - undefinedms
 rules:
   - MATCH,Proxy

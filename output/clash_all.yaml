@@ -31,6 +31,33 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 北美地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 23.138.148.47
+    port: 42507
+    uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
     type: vmess
     server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
@@ -92,24 +119,45 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 🇫🇷FR_1|2.5MB/s - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: zula.ir
+  - name: 🇭🇰HK_1|1.2MB/s - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+    port: 80
+    uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+    alterId: 2
     cipher: auto
     tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+  - name: 🇭🇰HK_4|2.1MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
   - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
     type: vmess
     server: 156.233.232.177
@@ -447,13 +495,17 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 🇫🇷FR_1|2.5MB/s - undefinedms
+      - 🇭🇰HK_1|1.2MB/s - undefinedms
+      - 🇭🇰HK_4|2.1MB/s - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -489,13 +541,17 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 北美地区 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 🇫🇷FR_1|2.5MB/s - undefinedms
+      - 🇭🇰HK_1|1.2MB/s - undefinedms
+      - 🇭🇰HK_4|2.1MB/s - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms

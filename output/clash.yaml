@@ -18,7 +18,7 @@ proxies:
       path: /1IKYjV0r/
       headers:
         Host: dongtaiwang15.dtku47.xyz
-  - name: 英国 V2CROSS.COM - 66ms
+  - name: 英国 V2CROSS.COM - 67ms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -27,16 +27,25 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - 64ms
+  - name: 美国 V2CROSS.COM - 470ms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 206.119.191.9
+    port: 7100
+    uuid: 10853485-26e1-477b-d257-58a3f4873db3
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 513ms
+    network: none
+  - name: 美国 V2CROSS.COM - 470ms
+    type: vmess
+    server: 206.119.191.9
+    port: 7100
+    uuid: 10853485-26e1-477b-d257-58a3f4873db3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 319ms
     type: vmess
     server: v8.hdacd.com
     port: 30808
@@ -45,7 +54,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰HK-203.198.28.145-1002 - 635ms
+  - name: 🇭🇰HK-203.198.28.145-1002 - 691ms
     type: vmess
     server: aflzzul.meiquankongjian.com
     port: 52513
@@ -58,33 +67,7 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: 🇭🇰HK_1|1.2MB/s - 286ms
-    type: vmess
-    server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
-    port: 80
-    uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
-  - name: 🇭🇰HK_4|2.1MB/s - 746ms
-    type: vmess
-    server: hkt.gotochinatown.net
-    port: 80
-    uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - 457ms
+  - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - 1250ms
     type: vmess
     server: 156.233.232.177
     port: 24004
@@ -93,7 +76,7 @@ proxies:
     cipher: auto
     tls: false
     network: none
-  - name: 美国 CloudFlare节点 - 388ms
+  - name: 美国 CloudFlare节点 - 536ms
     type: vmess
     server: cf.fovi.tk
     port: 443
@@ -106,7 +89,7 @@ proxies:
       path: /eisasqa
       headers:
         Host: foxlux.fovi.tk
-  - name: 英国 伦敦DigitalOcean数据中心 - 525ms
+  - name: 英国 伦敦DigitalOcean数据中心 - 686ms
     type: vmess
     server: cg1c16.waimaojd.com
     port: 443
@@ -128,7 +111,7 @@ proxies:
     cipher: auto
     tls: true
     network: none
-  - name: 美国 CloudFlare节点 - 377ms
+  - name: 美国 CloudFlare节点 - 535ms
     type: vmess
     server: t1.620720.xyz
     port: 8443
@@ -167,7 +150,7 @@ proxies:
       path: /dabai.in104.24.185.219
       headers:
         Host: 100-151-81-36.s4.db-link01.top
-  - name: 美国 CloudFlare节点 - 549ms
+  - name: 美国 CloudFlare节点 - 644ms
     type: vmess
     server: s5.cn-db.top
     port: 2082
@@ -180,7 +163,7 @@ proxies:
       path: /dabai.in172.64.23.14
       headers:
         Host: 100-219-162-241.s5.cn-db.top
-  - name: 美国 CloudFlare节点 - 436ms
+  - name: 美国 CloudFlare节点 - 440ms
     type: vmess
     server: www.speedtest.net
     port: 80
@@ -245,30 +228,81 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇭🇰HK_1|1.5MB/s - 282ms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇭🇰HK_2|1.0MB/s - 282ms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇭🇰HK_3|1.3MB/s - 321ms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇺🇸US_4|1.4MB/s - 566ms
+    type: vmess
+    server: 206.119.191.9
+    port: 7100
+    uuid: 10853485-26e1-477b-d257-58a3f4873db3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - 6ms
-      - 英国 V2CROSS.COM - 66ms
-      - 英国 V2CROSS.COM - 64ms
-      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 513ms
-      - 🇭🇰HK-203.198.28.145-1002 - 635ms
-      - 🇭🇰HK_1|1.2MB/s - 286ms
-      - 🇭🇰HK_4|2.1MB/s - 746ms
-      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - 457ms
-      - 美国 CloudFlare节点 - 388ms
-      - 英国 伦敦DigitalOcean数据中心 - 525ms
+      - 英国 V2CROSS.COM - 67ms
+      - 美国 V2CROSS.COM - 470ms
+      - 美国 V2CROSS.COM - 470ms
+      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 319ms
+      - 🇭🇰HK-203.198.28.145-1002 - 691ms
+      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - 1250ms
+      - 美国 CloudFlare节点 - 536ms
+      - 英国 伦敦DigitalOcean数据中心 - 686ms
       - 美国 华盛顿Cogent通信公司 - 231ms
-      - 美国 CloudFlare节点 - 377ms
+      - 美国 CloudFlare节点 - 535ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
-      - 美国 CloudFlare节点 - 549ms
-      - 美国 CloudFlare节点 - 436ms
+      - 美国 CloudFlare节点 - 644ms
+      - 美国 CloudFlare节点 - 440ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
+      - 🇭🇰HK_1|1.5MB/s - 282ms
+      - 🇭🇰HK_2|1.0MB/s - 282ms
+      - 🇭🇰HK_3|1.3MB/s - 321ms
+      - 🇺🇸US_4|1.4MB/s - 566ms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -276,24 +310,27 @@ proxy-groups:
     proxies:
       - Auto Select
       - TG-@vvkj11 - 6ms
-      - 英国 V2CROSS.COM - 66ms
-      - 英国 V2CROSS.COM - 64ms
-      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 513ms
-      - 🇭🇰HK-203.198.28.145-1002 - 635ms
-      - 🇭🇰HK_1|1.2MB/s - 286ms
-      - 🇭🇰HK_4|2.1MB/s - 746ms
-      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - 457ms
-      - 美国 CloudFlare节点 - 388ms
-      - 英国 伦敦DigitalOcean数据中心 - 525ms
+      - 英国 V2CROSS.COM - 67ms
+      - 美国 V2CROSS.COM - 470ms
+      - 美国 V2CROSS.COM - 470ms
+      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 319ms
+      - 🇭🇰HK-203.198.28.145-1002 - 691ms
+      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - 1250ms
+      - 美国 CloudFlare节点 - 536ms
+      - 英国 伦敦DigitalOcean数据中心 - 686ms
       - 美国 华盛顿Cogent通信公司 - 231ms
-      - 美国 CloudFlare节点 - 377ms
+      - 美国 CloudFlare节点 - 535ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
-      - 美国 CloudFlare节点 - 549ms
-      - 美国 CloudFlare节点 - 436ms
+      - 美国 CloudFlare节点 - 644ms
+      - 美国 CloudFlare节点 - 440ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
       - 美国 CloudFlare节点 - 6ms
+      - 🇭🇰HK_1|1.5MB/s - 282ms
+      - 🇭🇰HK_2|1.0MB/s - 282ms
+      - 🇭🇰HK_3|1.3MB/s - 321ms
+      - 🇺🇸US_4|1.4MB/s - 566ms
 rules:
   - MATCH,Proxy

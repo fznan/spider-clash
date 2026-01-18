@@ -94,13 +94,44 @@ proxies:
         Host: aflzzul.meiquankongjian.com
   - name: 以色列 V2CROSS.COM - undefinedms
     type: vmess
-    server: 149.88.95.217
-    port: 35760
-    uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+    server: 149.88.95.94
+    port: 18937
+    uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
     alterId: 0
     cipher: auto
     tls: false
     network: none
+  - name: 以色列 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 149.88.95.94
+    port: 40741
+    uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: t1.620720.xyz
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
     type: vmess
     server: 156.233.232.177
@@ -145,19 +176,6 @@ proxies:
     cipher: auto
     tls: true
     network: none
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: t1.620720.xyz
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: 104.21.96.1
@@ -483,11 +501,13 @@ proxy-groups:
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - 以色列 V2CROSS.COM - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 印度 V2CROSS.COM - undefinedms
       - 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
@@ -527,11 +547,13 @@ proxy-groups:
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - 以色列 V2CROSS.COM - undefinedms
+      - 以色列 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 印度 V2CROSS.COM - undefinedms
       - 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms

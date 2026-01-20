@@ -31,37 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 德国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 5.83.150.108
-    port: 39316
-    uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: imafake.locker
-  - name: 哈萨克斯坦 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 94.232.247.165
-    port: 45653
-    uuid: 9e91d19a-c73f-4276-adbc-b337c374259c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
     type: vmess
     server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
@@ -123,6 +92,15 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
     type: vmess
     server: 156.233.232.177
@@ -454,15 +432,6 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇺🇸US_3|1018KB/s - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
     type: vmess
     server: zula.ir
@@ -508,14 +477,12 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 德国 V2CROSS.COM - undefinedms
-      - 哈萨克斯坦 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -543,7 +510,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇺🇸US_3|1018KB/s - undefinedms
       - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
       - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
       - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
@@ -555,14 +521,12 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 德国 V2CROSS.COM - undefinedms
-      - 哈萨克斯坦 V2CROSS.COM - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -590,7 +554,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇺🇸US_3|1018KB/s - undefinedms
       - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
       - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
       - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms

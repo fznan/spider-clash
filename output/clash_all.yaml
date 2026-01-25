@@ -31,99 +31,11 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 得克萨斯州达拉斯Cloudflare Warp节点 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 8.6.112.0
-    port: 2053
-    uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 8.6.112.0
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: t1.620720.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: cf-proxy.202507.xyz
-    port: 443
-    uuid: fa8c811b-7bd3-4c04-b9dd-c701698f1efd
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: gb.202507.xyz
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇳🇱NL_2|1.5MB/s - undefinedms
-    type: vmess
-    server: 176.120.17.132
-    port: 31820
-    uuid: 12f1c513-6217-4f8d-b227-8592aa2c3a54
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇳🇱NL_3|1.0MB/s - undefinedms
-    type: vmess
-    server: 176.120.17.109
-    port: 31820
-    uuid: 12f1c513-6217-4f8d-b227-8592aa2c3a54
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇵🇱PL_1|1.1MB/s - undefinedms
-    type: vmess
-    server: marzpol.citixen.sbs
-    port: 2085
-    uuid: 27aac4a9-e839-4606-ad63-90f78228e6d7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇻🇳VN_1|2.7MB/s - undefinedms
-    type: vmess
-    server: faq1.lieerr222.cn
-    port: 43528
-    uuid: ab35a23e-80e6-4530-99cf-e29041acdcfa
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬SG_3|1.5MB/s - undefinedms
-    type: vmess
-    server: tunnel1.qqa678.com
-    port: 37086
-    uuid: 0863424a-f6e8-4486-b85a-a7144ee89ddc
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
@@ -459,6 +371,28 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇵🇱PL_2|2.6MB/s - undefinedms
+    type: vmess
+    server: marzpol.citixen.sbs
+    port: 2085
+    uuid: 27aac4a9-e839-4606-ad63-90f78228e6d7
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -972,15 +906,7 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 得克萨斯州达拉斯Cloudflare Warp节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇳🇱NL_2|1.5MB/s - undefinedms
-      - 🇳🇱NL_3|1.0MB/s - undefinedms
-      - 🇵🇱PL_1|1.1MB/s - undefinedms
-      - 🇻🇳VN_1|2.7MB/s - undefinedms
-      - 🇸🇬SG_3|1.5MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -1008,6 +934,8 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇵🇱PL_2|2.6MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1055,15 +983,7 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 得克萨斯州达拉斯Cloudflare Warp节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇳🇱NL_2|1.5MB/s - undefinedms
-      - 🇳🇱NL_3|1.0MB/s - undefinedms
-      - 🇵🇱PL_1|1.1MB/s - undefinedms
-      - 🇻🇳VN_1|2.7MB/s - undefinedms
-      - 🇸🇬SG_3|1.5MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -1091,6 +1011,8 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇵🇱PL_2|2.6MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

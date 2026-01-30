@@ -31,32 +31,64 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 CloudFlare节点 - undefinedms
+  - name: 广东省湛江市 移动 - undefinedms
     type: vmess
-    server: 172.67.204.84
-    port: 8080
-    uuid: nasnet
+    server: tunnel2.qqa678.com
+    port: 47084
+    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
     alterId: 0
     cipher: auto
     tls: false
+    network: tcp
+  - name: 伊朗 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 95.81.123.15
+    port: 40956
+    uuid: e3cb685e-7840-45cb-9d64-b2028d9b635e
+    alterId: 0
+    cipher: auto
+    tls: true
     network: ws
     ws-opts:
-      path: /nasnet/cdn
+      path: /speedtest
       headers:
-        Host: nasnet-511952424.mcitel.co
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+        Host: imafake.locker
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
+    network: tcp
+  - name: 香港 阿里云 - undefinedms
+    type: vmess
+    server: 47.242.192.233
+    port: 52190
+    uuid: 98689724-deb2-4a3d-b83b-602221995baf
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 湖南省长沙市 移动 - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 湖南省长沙市 移动 - undefinedms
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -362,19 +394,28 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇭🇰HK_1|1.0MB/s - undefinedms
+  - name: 🇭🇰HK_1|2.0MB/s - undefinedms
     type: vmess
-    server: aflzzul.meiquankongjian.com
-    port: 52511
-    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    server: oss-4.qqa678.com
+    port: 47081
+    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /564dfa20/
+      path: /github.com/Alvin9999
       headers:
-        Host: aflzzul.meiquankongjian.com
+        Host: ip18.6929198.xyz
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -849,8 +890,12 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 广东省湛江市 移动 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 香港 阿里云 - undefinedms
+      - 湖南省长沙市 移动 - undefinedms
+      - 湖南省长沙市 移动 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -876,7 +921,8 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇭🇰HK_1|1.0MB/s - undefinedms
+      - 🇭🇰HK_1|2.0MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -921,8 +967,12 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 广东省湛江市 移动 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 香港 阿里云 - undefinedms
+      - 湖南省长沙市 移动 - undefinedms
+      - 湖南省长沙市 移动 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -948,7 +998,8 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇭🇰HK_1|1.0MB/s - undefinedms
+      - 🇭🇰HK_1|2.0MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

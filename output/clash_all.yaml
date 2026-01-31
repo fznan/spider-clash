@@ -44,32 +44,41 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 伊朗 V2CROSS.COM - undefinedms
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 95.81.123.15
-    port: 40956
-    uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+    server: 172.67.204.84
+    port: 8080
+    uuid: nasnet
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /nasnet/cdn
       headers:
-        Host: imafake.locker
-  - name: 伊朗 V2CROSS.COM - undefinedms
+        Host: nasnet-511952424.mcitel.co
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 95.81.123.15
-    port: 40956
-    uuid: 9631096d-3032-4942-9446-bdf12665682b
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /nasnet/cdn?ed=2560
       headers:
-        Host: imafake.locker
+        Host: nasnet-571296497.iranpress.co
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -843,59 +852,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇩🇪DE_1|2.9MB/s - undefinedms
-    type: vmess
-    server: tgju.org
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /nasnet/cdn
-      headers:
-        Host: nasnet-571296497.iranpress.co
-  - name: 🇸🇬SG_1|1.4MB/s - undefinedms
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_1|2.7MB/s - undefinedms
-    type: vmess
-    server: d2f78cba-t8nog0-tbe46y-1la7v.hkt.gotochinatown.net
-    port: 80
-    uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d2f78cba-t8nog0-tbe46y-1la7v.hkt.gotochinatown.net
-  - name: 🇺🇸US_1|1.6MB/s - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_2|2.0MB/s - undefinedms
-    type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -903,8 +859,9 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -966,11 +923,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇩🇪DE_1|2.9MB/s - undefinedms
-      - 🇸🇬SG_1|1.4MB/s - undefinedms
-      - 🇭🇰HK_1|2.7MB/s - undefinedms
-      - 🇺🇸US_1|1.6MB/s - undefinedms
-      - 🇺🇸US_2|2.0MB/s - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -980,8 +932,9 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -1043,10 +996,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇩🇪DE_1|2.9MB/s - undefinedms
-      - 🇸🇬SG_1|1.4MB/s - undefinedms
-      - 🇭🇰HK_1|2.7MB/s - undefinedms
-      - 🇺🇸US_1|1.6MB/s - undefinedms
-      - 🇺🇸US_2|2.0MB/s - undefinedms
 rules:
   - MATCH,Proxy

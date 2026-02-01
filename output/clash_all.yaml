@@ -18,6 +18,67 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: digitalocean.com
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /NASNET/cdn?ed=2560
+      headers:
+        Host: nasnet-571299667.rahavard365.co
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-571296497.iranpress.co
+  - name: 美国 Cloudinnovation数据中心 - undefinedms
+    type: vmess
+    server: 154.83.2.156
+    port: 2086
+    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v205.19740822.xyz
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: cf.090227.xyz
+    port: 443
+    uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sgal.dagrate.eu.org
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,41 +105,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 172.67.204.84
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /nasnet/cdn
-      headers:
-        Host: nasnet-511952424.mcitel.co
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: tgju.org
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /nasnet/cdn?ed=2560
-      headers:
-        Host: nasnet-571296497.iranpress.co
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -384,6 +410,67 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇩🇪DE_1|1.5MB/s - undefinedms
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-571296497.iranpress.co
+  - name: 🇺🇸US_3|1.6MB/s - undefinedms
+    type: vmess
+    server: 154.83.2.156
+    port: 2086
+    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v205.19740822.xyz
+  - name: 🇭🇰HK_1|2.2MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇩🇪DE_3|2.3MB/s - undefinedms
+    type: vmess
+    server: digitalocean.com
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /NASNET/cdn
+      headers:
+        Host: nasnet-571299667.rahavard365.co
+  - name: 🇺🇸US_5|1.0MB/s - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -857,11 +944,13 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 Cloudinnovation数据中心 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -887,6 +976,11 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇩🇪DE_1|1.5MB/s - undefinedms
+      - 🇺🇸US_3|1.6MB/s - undefinedms
+      - 🇭🇰HK_1|2.2MB/s - undefinedms
+      - 🇩🇪DE_3|2.3MB/s - undefinedms
+      - 🇺🇸US_5|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -930,11 +1024,13 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 Cloudinnovation数据中心 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -960,6 +1056,11 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇩🇪DE_1|1.5MB/s - undefinedms
+      - 🇺🇸US_3|1.6MB/s - undefinedms
+      - 🇭🇰HK_1|2.2MB/s - undefinedms
+      - 🇩🇪DE_3|2.3MB/s - undefinedms
+      - 🇺🇸US_5|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

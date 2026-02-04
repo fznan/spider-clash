@@ -44,51 +44,68 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 华盛顿Cogent通信公司 - undefinedms
+  - name: 巴西圣保罗 CloudFlare节点 - undefinedms
     type: vmess
-    server: 38.180.190.4
-    port: 27589
-    uuid: e7d6313b-90aa-4309-ee35-9b7cb9bcfbf4
+    server: 188.114.98.0
+    port: 8080
+    uuid: nasnet
     alterId: 0
     cipher: auto
     tls: false
-    network: none
-  - name: 美国 华盛顿Cogent通信公司 - undefinedms
+    network: ws
+    ws-opts:
+      path: >-
+        /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+      headers:
+        Host: nasnet-162191099.sharghdaily.co
+  - name: 伊朗 V2CROSS.COM - undefinedms
     type: vmess
-    server: 38.180.190.4
-    port: 20594
-    uuid: 2c47bb18-de80-4416-b493-2673355d37ab
+    server: 95.81.123.15
+    port: 40956
+    uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
     alterId: 0
     cipher: auto
-    tls: false
-    network: none
+    tls: true
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: imafake.locker
   - name: 美国 V2CROSS.COM - undefinedms
     type: vmess
     server: 68.167.181.220
-    port: 10010
-    uuid: b4f7c326-5c4f-4e19-83d5-bfa43b461002
+    port: 10086
+    uuid: 3c3bcf4e-96b0-4f05-8e4c-13485a0c5c66
     alterId: 0
     cipher: auto
     tls: false
     network: none
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 104.21.69.44
+    port: 8080
+    uuid: nasnet
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 广东省广州市 移动 - undefinedms
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 172.64.152.23
+    port: 8443
+    uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
     alterId: 0
     cipher: auto
-    tls: false
-    network: tcp
+    tls: true
+    network: ws
+    ws-opts:
+      path: /gbt
+      headers:
+        Host: frsys.fl-dl.com
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -394,6 +411,50 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇩🇪DE_1|3.3MB/s - undefinedms
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-571296497.iranpress.co
+  - name: 🇺🇸US_1|1.5MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_2|2.8MB/s - undefinedms
+    type: vmess
+    server: 154.83.2.156
+    port: 2086
+    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v205.19740822.xyz
+  - name: 🇺🇸US_3|2.9MB/s - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -973,11 +1034,11 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 华盛顿Cogent通信公司 - undefinedms
-      - 美国 华盛顿Cogent通信公司 - undefinedms
+      - 巴西圣保罗 CloudFlare节点 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
       - 美国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 广东省广州市 移动 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -1003,6 +1064,10 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇩🇪DE_1|3.3MB/s - undefinedms
+      - 🇺🇸US_1|1.5MB/s - undefinedms
+      - 🇺🇸US_2|2.8MB/s - undefinedms
+      - 🇺🇸US_3|2.9MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1056,11 +1121,11 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 华盛顿Cogent通信公司 - undefinedms
-      - 美国 华盛顿Cogent通信公司 - undefinedms
+      - 巴西圣保罗 CloudFlare节点 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
       - 美国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 广东省广州市 移动 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -1086,6 +1151,10 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇩🇪DE_1|3.3MB/s - undefinedms
+      - 🇺🇸US_1|1.5MB/s - undefinedms
+      - 🇺🇸US_2|2.8MB/s - undefinedms
+      - 🇺🇸US_3|2.9MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

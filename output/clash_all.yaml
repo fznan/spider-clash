@@ -44,31 +44,9 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 伊朗 V2CROSS.COM - undefinedms
-    type: vmess
-    server: freedom.vipgsmteam.info
-    port: 17356
-    uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: yyynm.2nn.ccwu.cc
-    port: 80
-    uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /iSRWSKUJKNuXvVzsYHmsMrnO
-      headers:
-        Host: yyynm.2nn.ccwu.cc
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.26.14.137
+    server: 104.26.15.137
     port: 80
     uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
     alterId: 0
@@ -76,22 +54,31 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+      path: /
       headers:
         Host: tr1-smart.adelping.com.
-  - name: 北美地区 V2CROSS.COM - undefinedms
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 198.62.62.199
-    port: 443
-    uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+    server: turk1.net.net
+    port: 80
+    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
-      path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+      path: /?de=2560
       headers:
-        Host: ous3.dean52.top
+        Host: tr1-smart.adelping.com.
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: 104.26.14.137
@@ -1418,10 +1405,9 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 北美地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
@@ -1537,10 +1523,9 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 北美地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 V2CROSS.COM - undefinedms

@@ -44,6 +44,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 伊朗 V2CROSS.COM - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -53,7 +62,70 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 伊朗 V2CROSS.COM - undefinedms
+  - name: 电报群：https://t.me/vvkj11 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 每天更新，请加电报群防止失联 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇬🇧_英国 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_中国 - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇬🇧_英国 - undefinedms
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇷_伊朗 - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_中国 - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇷_伊朗 - undefinedms
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -62,15 +134,367 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 伊朗 V2CROSS.COM - undefinedms
+  - name: 🇬🇧_英国 - undefinedms
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
+  - name: 🏳️_未知 - undefinedms
+    type: vmess
+    server: 2a14:7584:d0a2::a
+    port: 23456
+    uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /alvin9999.com
+      headers:
+        Host: www.bing.com
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: Azerb.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK1.NET.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: '?ed=2048'
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: AZERB.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::14
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 2001:bc8:32d7:302::10
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::15
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: AZERB.NET
+  - name: 🇫🇷_法国 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 🇺🇸US_2|2.6MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵JP_6|3.6MB/s - undefinedms
+    type: vmess
+    server: aflzzul.meiquankongjian.com
+    port: 52512
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: aflzzul.meiquankongjian.com
+  - name: 🇺🇸US_6|2.0MB/s - undefinedms
+    type: vmess
+    server: aflzzul.meiquankongjian.com
+    port: 52513
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: aflzzul.meiquankongjian.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -539,404 +963,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 电报群：https://t.me/vvkj11 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 每天更新，请加电报群防止失联 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧_英国 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧_英国 - undefinedms
-    type: vmess
-    server: 82.198.246.46
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇷_伊朗 - undefinedms
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇷_伊朗 - undefinedms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧_英国 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🏳️_未知 - undefinedms
-    type: vmess
-    server: 2a14:7584:d0a2::a
-    port: 23456
-    uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /alvin9999.com
-      headers:
-        Host: www.bing.com
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: Azerb.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: >-
-        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK1.NET.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: '?ed=2048'
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: >-
-        /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: >-
-        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: AZERB.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::14
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::17
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: >-
-        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: >-
-        /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: 2001:bc8:32d7:302::10
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::15
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: AZERB.NET
-  - name: 🇫🇷_法国 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:302::16
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -944,9 +970,44 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
+      - 电报群：https://t.me/vvkj11 - undefinedms
+      - 每天更新，请加电报群防止失联 - undefinedms
+      - 🇬🇧_英国 - undefinedms
+      - 🇨🇳_中国 - undefinedms
+      - 🇬🇧_英国 - undefinedms
+      - 🇮🇷_伊朗 - undefinedms
+      - 🇨🇳_中国 - undefinedms
+      - 🇮🇷_伊朗 - undefinedms
+      - 🇬🇧_英国 - undefinedms
+      - 🏳️_未知 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇺🇸US_2|2.6MB/s - undefinedms
+      - 🇯🇵JP_6|3.6MB/s - undefinedms
+      - 🇺🇸US_6|2.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -983,39 +1044,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 电报群：https://t.me/vvkj11 - undefinedms
-      - 每天更新，请加电报群防止失联 - undefinedms
-      - 🇬🇧_英国 - undefinedms
-      - 🇨🇳_中国 - undefinedms
-      - 🇬🇧_英国 - undefinedms
-      - 🇮🇷_伊朗 - undefinedms
-      - 🇨🇳_中国 - undefinedms
-      - 🇮🇷_伊朗 - undefinedms
-      - 🇬🇧_英国 - undefinedms
-      - 🏳️_未知 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -1025,9 +1053,44 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
+      - 电报群：https://t.me/vvkj11 - undefinedms
+      - 每天更新，请加电报群防止失联 - undefinedms
+      - 🇬🇧_英国 - undefinedms
+      - 🇨🇳_中国 - undefinedms
+      - 🇬🇧_英国 - undefinedms
+      - 🇮🇷_伊朗 - undefinedms
+      - 🇨🇳_中国 - undefinedms
+      - 🇮🇷_伊朗 - undefinedms
+      - 🇬🇧_英国 - undefinedms
+      - 🏳️_未知 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇫🇷_法国 - undefinedms
+      - 🇺🇸US_2|2.6MB/s - undefinedms
+      - 🇯🇵JP_6|3.6MB/s - undefinedms
+      - 🇺🇸US_6|2.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1064,38 +1127,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 电报群：https://t.me/vvkj11 - undefinedms
-      - 每天更新，请加电报群防止失联 - undefinedms
-      - 🇬🇧_英国 - undefinedms
-      - 🇨🇳_中国 - undefinedms
-      - 🇬🇧_英国 - undefinedms
-      - 🇮🇷_伊朗 - undefinedms
-      - 🇨🇳_中国 - undefinedms
-      - 🇮🇷_伊朗 - undefinedms
-      - 🇬🇧_英国 - undefinedms
-      - 🏳️_未知 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 - undefinedms
 rules:
   - MATCH,Proxy

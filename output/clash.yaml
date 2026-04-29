@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: TG-@vvkj11 - 3ms
+  - name: TG-@vvkj11 - 4ms
     type: vmess
     server: 23.227.39.11
     port: 8080
@@ -18,7 +18,7 @@ proxies:
       path: /1IKYjV0r/
       headers:
         Host: dongtaiwang15.dtku47.xyz
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 4ms
     type: vmess
     server: 45.80.111.9
     port: 2082
@@ -31,16 +31,16 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 英国 V2CROSS.COM - 64ms
+  - name: 英国 V2CROSS.COM - 70ms
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - 65ms
+  - name: 英国 V2CROSS.COM - 71ms
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -49,7 +49,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - 67ms
+  - name: 英国 V2CROSS.COM - 71ms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - 70ms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -58,7 +67,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - 68ms
+  - name: 英国 V2CROSS.COM - 71ms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -67,25 +76,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - 67ms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - 66ms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - 65ms
+  - name: 英国 V2CROSS.COM - 71ms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -94,56 +85,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - 68ms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - 63ms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - 72ms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_1|1.3MB/s - 281ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16632
-    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-  - name: 电报群：https://t.me/vvkj11 - 69ms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 日期：04-28 - 67ms
+  - name: 英国 V2CROSS.COM - 70ms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -152,25 +94,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 免费VPN：https://tt.vg/OWeaF - 65ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 5 - 67ms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 6 - 67ms
+  - name: 英国 V2CROSS.COM - 71ms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -179,25 +103,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 7 - 66ms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 8 - 94ms
-    type: vmess
-    server: 77.90.11.178
-    port: 17662
-    uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 11 - 236ms
+  - name: 电报群：https://t.me/vvkj11 - 209ms
     type: vmess
     server: 38.22.93.20
     port: 55165
@@ -206,7 +112,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰 香港 12 - 212ms
+  - name: 日期：04-29 - 204ms
     type: vmess
     server: 38.22.93.20
     port: 15079
@@ -215,16 +121,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇩 印度尼西亚 17 - 371ms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 21 - 68ms
+  - name: 免费VPN：https://tt.vg/OWeaF - 71ms
     type: vmess
     server: 82.198.246.233
     port: 180
@@ -233,16 +130,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇯🇵 日本 22 - 1034ms
-    type: vmess
-    server: 103.127.243.59
-    port: 56738
-    uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 23 - 65ms
+  - name: 🇩🇪 德国 5 - 71ms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -251,79 +139,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇯🇵 日本 24 - 169ms
+  - name: 🇯🇵 日本 23 - 286ms
     type: vmess
-    server: 103.127.243.55
-    port: 58051
-    uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+    server: 103.127.243.59
+    port: 56738
+    uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 25 - 95ms
-    type: vmess
-    server: 77.90.11.178
-    port: 17662
-    uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 26 - 64ms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 27 - 67ms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 28 - 66ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 29 - 67ms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇲🇾 马来西亚 31 - 393ms
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇲🇾 马来西亚 33 - 348ms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 41 - 63ms
+  - name: 🇩🇪 德国 24 - 71ms
     type: vmess
     server: 82.198.246.233
     port: 180
@@ -332,7 +157,43 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 42 - 67ms
+  - name: 🇯🇵 日本 25 - 555ms
+    type: vmess
+    server: 103.127.243.49
+    port: 53224
+    uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵 日本 26 - 1678ms
+    type: vmess
+    server: 103.127.243.60
+    port: 55386
+    uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵 日本 28 - 1290ms
+    type: vmess
+    server: 103.127.243.55
+    port: 58051
+    uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 30 - 71ms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 32 - 71ms
     type: vmess
     server: 82.198.246.9
     port: 180
@@ -341,16 +202,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇲🇾 马来西亚 43 - 416ms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 45 - 65ms
+  - name: 🇩🇪 德国 33 - 71ms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -359,20 +211,47 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇩 印度尼西亚 47 - 401ms
+  - name: 🇩🇪 德国 35 - 70ms
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇫🇷 法国 60 - 443ms
+  - name: 🇯🇵 日本 37 - 381ms
     type: vmess
-    server: planb.mojcn.com
-    port: 16622
-    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+    server: paay9oa-g05.jp06-vm5.entry.rtysjur.quest
+    port: 666
+    uuid: 4d4db181-5c93-399d-9fb9-1280ccbfb169
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳 中国 38 - 1403ms
+    type: vmess
+    server: 4.a.4.5.9.w.a.e.d.hk09-vm5.entry.v51124-5.qpon
+    port: 15268
+    uuid: 4d4db181-5c93-399d-9fb9-1280ccbfb169
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 51 - 69ms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷 法国 362 - 1255ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16617
+    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
     alterId: 0
     cipher: auto
     tls: false
@@ -380,8 +259,8 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 65 - 283ms
+        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 374 - 382ms
     type: vmess
     server: m.cnmjin.net
     port: 16632
@@ -394,59 +273,7 @@ proxies:
       path: /
       headers:
         Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 66 - 282ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16622
-    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 68 - 302ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16617
-    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 71 - 302ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16622
-    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 72 - 91ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16617
-    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-  - name: 🇰🇷 韩国 245 - 214ms
+  - name: 🇰🇷 韩国 413 - 206ms
     type: vmess
     server: kr02.a0a.xyz
     port: 80
@@ -459,20 +286,7 @@ proxies:
       path: /cctv13.m3u8
       headers:
         Host: kr02.a0a.xyz
-  - name: 🇫🇷 法国 255 - 189ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16644
-    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 294 - 94ms
+  - name: 🇫🇷 法国 437 - 107ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16641
@@ -485,11 +299,86 @@ proxies:
       path: /
       headers:
         Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 351 - 92ms
+  - name: 🇨🇳 中国 601 - 517ms
     type: vmess
-    server: t.cnmjcn.cyou
+    server: p.q.4.y.y.o.n.e.d.hk10-vm5.entry.v51124-5.qpon
+    port: 13486
+    uuid: 4d4db181-5c93-399d-9fb9-1280ccbfb169
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: speedtest-bgp-01-10.entry-0.chinasnow.net
+  - name: 🇨🇳 中国 602 - 613ms
+    type: vmess
+    server: e.a.7.5.y.w.2.e.d.hk11-vm5.entry.v51124-5.qpon
+    port: 578
+    uuid: 4d4db181-5c93-399d-9fb9-1280ccbfb169
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /tutorial/iphone13.m3u8
+      headers:
+        Host: speedtest-bgp-01-11.entry-0.chinasnow.net
+  - name: 🇭🇰 香港 611 - 69ms
+    type: vmess
+    server: 103.143.238.196
+    port: 21879
+    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /vmesswss
+      headers:
+        Host: 103.143.238.196
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 32ms
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 71ms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 · proxy_check - 72ms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - 244ms
+    type: vmess
+    server: 213.156.141.52
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - 342ms
+    type: vmess
+    server: planb.mojcn.com
     port: 16617
-    uuid: f091e44a-daee-4782-a910-d699a0c1145f
+    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
     alterId: 0
     cipher: auto
     tls: false
@@ -497,8 +386,26 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
-  - name: 🇺🇸_US_美国_1 - 3ms
+        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
+  - name: 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - 24ms
+    type: vmess
+    server: 23.162.200.198
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 70ms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国_1 - 2ms
     type: vmess
     server: 104.26.0.206
     port: 2086
@@ -511,7 +418,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: p1.613055.xyz
-  - name: 🇺🇸_US_美国_4 - 2ms
+  - name: 🇺🇸_US_美国_4 - 3ms
     type: vmess
     server: 104.26.0.15
     port: 8880
@@ -576,7 +483,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_11 - 2ms
+  - name: 🇺🇸_US_美国_11 - 3ms
     type: vmess
     server: 162.159.45.181
     port: 2086
@@ -602,7 +509,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国_13 - 3ms
+  - name: 🇺🇸_US_美国_13 - 2ms
     type: vmess
     server: 104.26.0.87
     port: 2086
@@ -615,73 +522,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 28ms
-    type: vmess
-    server: 38.91.107.49
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 65ms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 · proxy_check - 67ms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - 234ms
-    type: vmess
-    server: 213.156.141.52
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - 174ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16617
-    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
-  - name: 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - 23ms
-    type: vmess
-    server: 23.162.200.198
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 66ms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - 3ms
     type: vmess
     server: 104.18.114.188
@@ -721,7 +561,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
+  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 5ms
     type: vmess
     server: 194.36.55.4
     port: 2082
@@ -734,7 +574,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_4 - 3ms
+  - name: 🇺🇸_US_美国_4 - 2ms
     type: vmess
     server: 104.18.114.118
     port: 2086
@@ -747,7 +587,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_5 - 3ms
+  - name: 🇺🇸_US_美国_5 - 2ms
     type: vmess
     server: 162.159.45.165
     port: 2086
@@ -760,7 +600,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_6 - 4ms
+  - name: 🇺🇸_US_美国_6 - 3ms
     type: vmess
     server: 104.18.114.162
     port: 2086
@@ -812,7 +652,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_10 - 3ms
+  - name: 🇺🇸_US_美国_10 - 4ms
     type: vmess
     server: 104.26.0.239
     port: 2086
@@ -825,7 +665,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_11 - 3ms
+  - name: 🇺🇸_US_美国_11 - 2ms
     type: vmess
     server: 104.18.114.125
     port: 2086
@@ -838,7 +678,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_12 - 3ms
+  - name: 🇺🇸_US_美国_12 - 2ms
     type: vmess
     server: 104.21.238.148
     port: 2086
@@ -851,7 +691,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_13 - 3ms
+  - name: 🇺🇸_US_美国_13 - 2ms
     type: vmess
     server: 104.18.114.183
     port: 2086
@@ -890,7 +730,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_15 - 3ms
+  - name: 🇺🇸_US_美国_15 - 2ms
     type: vmess
     server: 104.26.0.183
     port: 2086
@@ -916,7 +756,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_17 - 3ms
+  - name: 🇺🇸_US_美国_17 - 4ms
     type: vmess
     server: 104.26.0.71
     port: 2086
@@ -929,7 +769,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_18 - 2ms
+  - name: 🇺🇸_US_美国_18 - 3ms
     type: vmess
     server: 104.18.114.58
     port: 2086
@@ -981,7 +821,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_22 - 2ms
+  - name: 🇺🇸_US_美国_22 - 3ms
     type: vmess
     server: 104.18.114.111
     port: 2086
@@ -998,189 +838,157 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - 3ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
-      - 英国 V2CROSS.COM - 64ms
-      - 英国 V2CROSS.COM - 65ms
-      - 英国 V2CROSS.COM - 67ms
-      - 英国 V2CROSS.COM - 68ms
-      - 英国 V2CROSS.COM - 67ms
-      - 英国 V2CROSS.COM - 66ms
-      - 英国 V2CROSS.COM - 65ms
-      - 英国 V2CROSS.COM - 68ms
-      - 英国 V2CROSS.COM - 63ms
-      - 英国 V2CROSS.COM - 72ms
-      - 🇭🇰HK_1|1.3MB/s - 281ms
-      - 电报群：https://t.me/vvkj11 - 69ms
-      - 日期：04-28 - 67ms
-      - 免费VPN：https://tt.vg/OWeaF - 65ms
-      - 🇩🇪 德国 5 - 67ms
-      - 🇩🇪 德国 6 - 67ms
-      - 🇩🇪 德国 7 - 66ms
-      - 🇩🇪 德国 8 - 94ms
-      - 🇭🇰 香港 11 - 236ms
-      - 🇭🇰 香港 12 - 212ms
-      - 🇮🇩 印度尼西亚 17 - 371ms
-      - 🇩🇪 德国 21 - 68ms
-      - 🇯🇵 日本 22 - 1034ms
-      - 🇩🇪 德国 23 - 65ms
-      - 🇯🇵 日本 24 - 169ms
-      - 🇩🇪 德国 25 - 95ms
-      - 🇩🇪 德国 26 - 64ms
-      - 🇩🇪 德国 27 - 67ms
-      - 🇩🇪 德国 28 - 66ms
-      - 🇩🇪 德国 29 - 67ms
-      - 🇲🇾 马来西亚 31 - 393ms
-      - 🇲🇾 马来西亚 33 - 348ms
-      - 🇩🇪 德国 41 - 63ms
-      - 🇩🇪 德国 42 - 67ms
-      - 🇲🇾 马来西亚 43 - 416ms
-      - 🇩🇪 德国 45 - 65ms
-      - 🇮🇩 印度尼西亚 47 - 401ms
-      - 🇫🇷 法国 60 - 443ms
-      - 🇫🇷 法国 65 - 283ms
-      - 🇫🇷 法国 66 - 282ms
-      - 🇫🇷 法国 68 - 302ms
-      - 🇫🇷 法国 71 - 302ms
-      - 🇫🇷 法国 72 - 91ms
-      - 🇰🇷 韩国 245 - 214ms
-      - 🇫🇷 法国 255 - 189ms
-      - 🇫🇷 法国 294 - 94ms
-      - 🇫🇷 法国 351 - 92ms
-      - 🇺🇸_US_美国_1 - 3ms
-      - 🇺🇸_US_美国_4 - 2ms
+      - TG-@vvkj11 - 4ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 4ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
+      - 电报群：https://t.me/vvkj11 - 209ms
+      - 日期：04-29 - 204ms
+      - 免费VPN：https://tt.vg/OWeaF - 71ms
+      - 🇩🇪 德国 5 - 71ms
+      - 🇯🇵 日本 23 - 286ms
+      - 🇩🇪 德国 24 - 71ms
+      - 🇯🇵 日本 25 - 555ms
+      - 🇯🇵 日本 26 - 1678ms
+      - 🇯🇵 日本 28 - 1290ms
+      - 🇩🇪 德国 30 - 71ms
+      - 🇩🇪 德国 32 - 71ms
+      - 🇩🇪 德国 33 - 71ms
+      - 🇩🇪 德国 35 - 70ms
+      - 🇯🇵 日本 37 - 381ms
+      - 🇨🇳 中国 38 - 1403ms
+      - 🇩🇪 德国 51 - 69ms
+      - 🇫🇷 法国 362 - 1255ms
+      - 🇫🇷 法国 374 - 382ms
+      - 🇰🇷 韩国 413 - 206ms
+      - 🇫🇷 法国 437 - 107ms
+      - 🇨🇳 中国 601 - 517ms
+      - 🇨🇳 中国 602 - 613ms
+      - 🇭🇰 香港 611 - 69ms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 32ms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 71ms
+      - 🇺🇸_US_美国 · proxy_check - 72ms
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - 244ms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - 342ms
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - 24ms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 70ms
+      - 🇺🇸_US_美国_1 - 2ms
+      - 🇺🇸_US_美国_4 - 3ms
       - 🇺🇸_US_美国_7 - 2ms
       - 🇺🇸_US_美国_9 - 3ms
       - 🇺🇸_US_美国_10 - 2ms
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 3ms
-      - 🇺🇸_US_美国_11 - 2ms
+      - 🇺🇸_US_美国_11 - 3ms
       - 🇺🇸_US_美国_12 - 2ms
-      - 🇺🇸_US_美国_13 - 3ms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 28ms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 65ms
-      - 🇺🇸_US_美国 · proxy_check - 67ms
-      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - 234ms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - 174ms
-      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - 23ms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 66ms
+      - 🇺🇸_US_美国_13 - 2ms
       - 🇺🇸_US_美国_1 - 3ms
       - 🇺🇸_US_美国_2 - 3ms
       - 🇺🇸_US_美国_3 - 3ms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
-      - 🇺🇸_US_美国_4 - 3ms
-      - 🇺🇸_US_美国_5 - 3ms
-      - 🇺🇸_US_美国_6 - 4ms
+      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 5ms
+      - 🇺🇸_US_美国_4 - 2ms
+      - 🇺🇸_US_美国_5 - 2ms
+      - 🇺🇸_US_美国_6 - 3ms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
       - 🇺🇸_US_美国_8 - 3ms
       - 🇺🇸_US_美国_9 - 3ms
-      - 🇺🇸_US_美国_10 - 3ms
-      - 🇺🇸_US_美国_11 - 3ms
-      - 🇺🇸_US_美国_12 - 3ms
-      - 🇺🇸_US_美国_13 - 3ms
+      - 🇺🇸_US_美国_10 - 4ms
+      - 🇺🇸_US_美国_11 - 2ms
+      - 🇺🇸_US_美国_12 - 2ms
+      - 🇺🇸_US_美国_13 - 2ms
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 3ms
       - 🇺🇸_US_美国_14 - 3ms
-      - 🇺🇸_US_美国_15 - 3ms
+      - 🇺🇸_US_美国_15 - 2ms
       - 🇺🇸_US_美国_16 - 3ms
-      - 🇺🇸_US_美国_17 - 3ms
-      - 🇺🇸_US_美国_18 - 2ms
+      - 🇺🇸_US_美国_17 - 4ms
+      - 🇺🇸_US_美国_18 - 3ms
       - 🇺🇸_US_美国_19 - 2ms
       - 🇺🇸_US_美国_20 - 2ms
       - 🇺🇸_US_美国_21 - 3ms
-      - 🇺🇸_US_美国_22 - 2ms
+      - 🇺🇸_US_美国_22 - 3ms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - 3ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
-      - 英国 V2CROSS.COM - 64ms
-      - 英国 V2CROSS.COM - 65ms
-      - 英国 V2CROSS.COM - 67ms
-      - 英国 V2CROSS.COM - 68ms
-      - 英国 V2CROSS.COM - 67ms
-      - 英国 V2CROSS.COM - 66ms
-      - 英国 V2CROSS.COM - 65ms
-      - 英国 V2CROSS.COM - 68ms
-      - 英国 V2CROSS.COM - 63ms
-      - 英国 V2CROSS.COM - 72ms
-      - 🇭🇰HK_1|1.3MB/s - 281ms
-      - 电报群：https://t.me/vvkj11 - 69ms
-      - 日期：04-28 - 67ms
-      - 免费VPN：https://tt.vg/OWeaF - 65ms
-      - 🇩🇪 德国 5 - 67ms
-      - 🇩🇪 德国 6 - 67ms
-      - 🇩🇪 德国 7 - 66ms
-      - 🇩🇪 德国 8 - 94ms
-      - 🇭🇰 香港 11 - 236ms
-      - 🇭🇰 香港 12 - 212ms
-      - 🇮🇩 印度尼西亚 17 - 371ms
-      - 🇩🇪 德国 21 - 68ms
-      - 🇯🇵 日本 22 - 1034ms
-      - 🇩🇪 德国 23 - 65ms
-      - 🇯🇵 日本 24 - 169ms
-      - 🇩🇪 德国 25 - 95ms
-      - 🇩🇪 德国 26 - 64ms
-      - 🇩🇪 德国 27 - 67ms
-      - 🇩🇪 德国 28 - 66ms
-      - 🇩🇪 德国 29 - 67ms
-      - 🇲🇾 马来西亚 31 - 393ms
-      - 🇲🇾 马来西亚 33 - 348ms
-      - 🇩🇪 德国 41 - 63ms
-      - 🇩🇪 德国 42 - 67ms
-      - 🇲🇾 马来西亚 43 - 416ms
-      - 🇩🇪 德国 45 - 65ms
-      - 🇮🇩 印度尼西亚 47 - 401ms
-      - 🇫🇷 法国 60 - 443ms
-      - 🇫🇷 法国 65 - 283ms
-      - 🇫🇷 法国 66 - 282ms
-      - 🇫🇷 法国 68 - 302ms
-      - 🇫🇷 法国 71 - 302ms
-      - 🇫🇷 法国 72 - 91ms
-      - 🇰🇷 韩国 245 - 214ms
-      - 🇫🇷 法国 255 - 189ms
-      - 🇫🇷 法国 294 - 94ms
-      - 🇫🇷 法国 351 - 92ms
-      - 🇺🇸_US_美国_1 - 3ms
-      - 🇺🇸_US_美国_4 - 2ms
+      - TG-@vvkj11 - 4ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 4ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 71ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
+      - 电报群：https://t.me/vvkj11 - 209ms
+      - 日期：04-29 - 204ms
+      - 免费VPN：https://tt.vg/OWeaF - 71ms
+      - 🇩🇪 德国 5 - 71ms
+      - 🇯🇵 日本 23 - 286ms
+      - 🇩🇪 德国 24 - 71ms
+      - 🇯🇵 日本 25 - 555ms
+      - 🇯🇵 日本 26 - 1678ms
+      - 🇯🇵 日本 28 - 1290ms
+      - 🇩🇪 德国 30 - 71ms
+      - 🇩🇪 德国 32 - 71ms
+      - 🇩🇪 德国 33 - 71ms
+      - 🇩🇪 德国 35 - 70ms
+      - 🇯🇵 日本 37 - 381ms
+      - 🇨🇳 中国 38 - 1403ms
+      - 🇩🇪 德国 51 - 69ms
+      - 🇫🇷 法国 362 - 1255ms
+      - 🇫🇷 法国 374 - 382ms
+      - 🇰🇷 韩国 413 - 206ms
+      - 🇫🇷 法国 437 - 107ms
+      - 🇨🇳 中国 601 - 517ms
+      - 🇨🇳 中国 602 - 613ms
+      - 🇭🇰 香港 611 - 69ms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 32ms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 71ms
+      - 🇺🇸_US_美国 · proxy_check - 72ms
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - 244ms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - 342ms
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - 24ms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 70ms
+      - 🇺🇸_US_美国_1 - 2ms
+      - 🇺🇸_US_美国_4 - 3ms
       - 🇺🇸_US_美国_7 - 2ms
       - 🇺🇸_US_美国_9 - 3ms
       - 🇺🇸_US_美国_10 - 2ms
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 3ms
-      - 🇺🇸_US_美国_11 - 2ms
+      - 🇺🇸_US_美国_11 - 3ms
       - 🇺🇸_US_美国_12 - 2ms
-      - 🇺🇸_US_美国_13 - 3ms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 28ms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 65ms
-      - 🇺🇸_US_美国 · proxy_check - 67ms
-      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - 234ms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - 174ms
-      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - 23ms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - 66ms
+      - 🇺🇸_US_美国_13 - 2ms
       - 🇺🇸_US_美国_1 - 3ms
       - 🇺🇸_US_美国_2 - 3ms
       - 🇺🇸_US_美国_3 - 3ms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
-      - 🇺🇸_US_美国_4 - 3ms
-      - 🇺🇸_US_美国_5 - 3ms
-      - 🇺🇸_US_美国_6 - 4ms
+      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 5ms
+      - 🇺🇸_US_美国_4 - 2ms
+      - 🇺🇸_US_美国_5 - 2ms
+      - 🇺🇸_US_美国_6 - 3ms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
       - 🇺🇸_US_美国_8 - 3ms
       - 🇺🇸_US_美国_9 - 3ms
-      - 🇺🇸_US_美国_10 - 3ms
-      - 🇺🇸_US_美国_11 - 3ms
-      - 🇺🇸_US_美国_12 - 3ms
-      - 🇺🇸_US_美国_13 - 3ms
+      - 🇺🇸_US_美国_10 - 4ms
+      - 🇺🇸_US_美国_11 - 2ms
+      - 🇺🇸_US_美国_12 - 2ms
+      - 🇺🇸_US_美国_13 - 2ms
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 3ms
       - 🇺🇸_US_美国_14 - 3ms
-      - 🇺🇸_US_美国_15 - 3ms
+      - 🇺🇸_US_美国_15 - 2ms
       - 🇺🇸_US_美国_16 - 3ms
-      - 🇺🇸_US_美国_17 - 3ms
-      - 🇺🇸_US_美国_18 - 2ms
+      - 🇺🇸_US_美国_17 - 4ms
+      - 🇺🇸_US_美国_18 - 3ms
       - 🇺🇸_US_美国_19 - 2ms
       - 🇺🇸_US_美国_20 - 2ms
       - 🇺🇸_US_美国_21 - 3ms
-      - 🇺🇸_US_美国_22 - 2ms
+      - 🇺🇸_US_美国_22 - 3ms
 rules:
   - MATCH,Proxy

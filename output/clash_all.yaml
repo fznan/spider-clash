@@ -5,6 +5,140 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 加拿大 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 158.51.121.63
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: linkvws
+      headers:
+        Host: seribus.org
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,109 +165,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
     server: 38.22.93.20
@@ -468,6 +499,54 @@ proxies:
       path: /vmesswss
       headers:
         Host: 103.143.238.196
+  - name: 🇸🇬SG_1|1.0MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+  - name: 🇹🇼TW_1|1.5MB/s - undefinedms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16616
+    uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+  - name: 🇭🇰HK_1|1.9MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16622
+    uuid: e4f74364-435b-49f1-bdbd-60a24dc99588
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 26244e9a2fd545178a435722e996eb61.mobgslb.tbcache.com
+  - name: 🇺🇸US_3|1.8MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
   - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
     type: vmess
     server: 38.91.107.49
@@ -1007,19 +1086,22 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 加拿大 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：04-29 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -1054,6 +1136,10 @@ proxy-groups:
       - 🇨🇳 中国 601 - undefinedms
       - 🇨🇳 中国 602 - undefinedms
       - 🇭🇰 香港 611 - undefinedms
+      - 🇸🇬SG_1|1.0MB/s - undefinedms
+      - 🇹🇼TW_1|1.5MB/s - undefinedms
+      - 🇭🇰HK_1|1.9MB/s - undefinedms
+      - 🇺🇸US_3|1.8MB/s - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_check - undefinedms
@@ -1103,19 +1189,22 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 加拿大 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：04-29 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -1150,6 +1239,10 @@ proxy-groups:
       - 🇨🇳 中国 601 - undefinedms
       - 🇨🇳 中国 602 - undefinedms
       - 🇭🇰 香港 611 - undefinedms
+      - 🇸🇬SG_1|1.0MB/s - undefinedms
+      - 🇹🇼TW_1|1.5MB/s - undefinedms
+      - 🇭🇰HK_1|1.9MB/s - undefinedms
+      - 🇺🇸US_3|1.8MB/s - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_check - undefinedms

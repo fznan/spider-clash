@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: US VMESS-144 | free-nodes - undefinedms
+  - name: US VMESS-140 | free-nodes - undefinedms
     type: vmess
     server: s842.ccgfw.top
     port: 443
@@ -59,6 +59,24 @@ proxies:
         Host: 109.104.152.220
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
     server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -77,23 +95,14 @@ proxies:
     network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 🇺🇸US_1|1.2MB/s - undefinedms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -102,16 +111,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_3|1.9MB/s - undefinedms
+  - name: 🇺🇸US_2|2.2MB/s - undefinedms
     type: vmess
     server: 82.198.246.9
     port: 180
@@ -120,12 +120,66 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇹🇼TW_1|1.2MB/s - undefinedms
+  - name: 🇺🇸US_3|3.1MB/s - undefinedms
     type: vmess
-    server: v13.zgtfqs.click
-    port: 30813
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_4|4.2MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_5|3.9MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|3.9MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_7|1.1MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_8|1.6MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_9|1.1MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
@@ -1164,6 +1218,24 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1489,29 +1561,11 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - US VMESS-144 | free-nodes - undefinedms
+      - US VMESS-140 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
@@ -1520,9 +1574,15 @@ proxy-groups:
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 🇺🇸US_3|1.9MB/s - undefinedms
-      - 🇹🇼TW_1|1.2MB/s - undefinedms
+      - 🇺🇸US_1|1.2MB/s - undefinedms
+      - 🇺🇸US_2|2.2MB/s - undefinedms
+      - 🇺🇸US_3|3.1MB/s - undefinedms
+      - 🇺🇸US_4|4.2MB/s - undefinedms
+      - 🇺🇸US_5|3.9MB/s - undefinedms
+      - 🇺🇸US_6|3.9MB/s - undefinedms
+      - 🇺🇸US_7|1.1MB/s - undefinedms
+      - 🇺🇸US_8|1.6MB/s - undefinedms
+      - 🇺🇸US_9|1.1MB/s - undefinedms
       - 🇩🇪 德国 6 - undefinedms
       - 🇩🇪 德国 7 - undefinedms
       - 🇩🇪 德国 8 - undefinedms
@@ -1626,6 +1686,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1651,15 +1713,13 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - US VMESS-144 | free-nodes - undefinedms
+      - US VMESS-140 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
@@ -1668,9 +1728,15 @@ proxy-groups:
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 🇺🇸US_3|1.9MB/s - undefinedms
-      - 🇹🇼TW_1|1.2MB/s - undefinedms
+      - 🇺🇸US_1|1.2MB/s - undefinedms
+      - 🇺🇸US_2|2.2MB/s - undefinedms
+      - 🇺🇸US_3|3.1MB/s - undefinedms
+      - 🇺🇸US_4|4.2MB/s - undefinedms
+      - 🇺🇸US_5|3.9MB/s - undefinedms
+      - 🇺🇸US_6|3.9MB/s - undefinedms
+      - 🇺🇸US_7|1.1MB/s - undefinedms
+      - 🇺🇸US_8|1.6MB/s - undefinedms
+      - 🇺🇸US_9|1.1MB/s - undefinedms
       - 🇩🇪 德国 6 - undefinedms
       - 🇩🇪 德国 7 - undefinedms
       - 🇩🇪 德国 8 - undefinedms
@@ -1774,6 +1840,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1799,7 +1867,5 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
 rules:
   - MATCH,Proxy

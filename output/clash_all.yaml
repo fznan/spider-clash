@@ -44,7 +44,7 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇺🇸US_1|1.3MB/s - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -53,15 +53,78 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: ❓Other_1|1.5MB/s - undefinedms
+  - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇺🇸US_1|1.8MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
+  - name: 🇺🇸US_3|1.5MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_4|4.2MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|2.5MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_7|3.2MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_8|2.4MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_9|1.5MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
   - name: 每天更新，请加电报群防止失联 - undefinedms
     type: vmess
     server: 82.198.246.250
@@ -1620,24 +1683,6 @@ proxies:
       path: /
       headers:
         Host: 152.67.218.38
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 47.239.69.43
-    port: 56698
-    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1781,6 +1826,24 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 47.239.69.43
+    port: 56698
+    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -2113,8 +2176,15 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|1.3MB/s - undefinedms
-      - ❓Other_1|1.5MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 🇺🇸US_1|1.8MB/s - undefinedms
+      - 🇺🇸US_3|1.5MB/s - undefinedms
+      - 🇺🇸US_4|4.2MB/s - undefinedms
+      - 🇺🇸US_6|2.5MB/s - undefinedms
+      - 🇺🇸US_7|3.2MB/s - undefinedms
+      - 🇺🇸US_8|2.4MB/s - undefinedms
+      - 🇺🇸US_9|1.5MB/s - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 日期：05-20 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -2285,8 +2355,6 @@ proxy-groups:
       - 🇯🇵 日本 470 - undefinedms
       - 🇭🇰 香港 532 - undefinedms
       - 🇰🇷 韩国 553 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2298,6 +2366,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2332,8 +2402,15 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|1.3MB/s - undefinedms
-      - ❓Other_1|1.5MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 🇺🇸US_1|1.8MB/s - undefinedms
+      - 🇺🇸US_3|1.5MB/s - undefinedms
+      - 🇺🇸US_4|4.2MB/s - undefinedms
+      - 🇺🇸US_6|2.5MB/s - undefinedms
+      - 🇺🇸US_7|3.2MB/s - undefinedms
+      - 🇺🇸US_8|2.4MB/s - undefinedms
+      - 🇺🇸US_9|1.5MB/s - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 日期：05-20 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -2504,8 +2581,6 @@ proxy-groups:
       - 🇯🇵 日本 470 - undefinedms
       - 🇭🇰 香港 532 - undefinedms
       - 🇰🇷 韩国 553 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2517,6 +2592,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

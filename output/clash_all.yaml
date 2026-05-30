@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,11 +31,20 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 V2CROSS.COM - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6003
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
@@ -62,140 +58,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬SG_1|1.4MB/s - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6004
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇳🇱NL_1|2.5MB/s - undefinedms
-    type: vmess
-    server: 104.18.32.47
-    port: 443
-    uuid: 2f3aadae-66c6-4dca-a670-03c183f8024e
-    alterId: 0
-    cipher: auto
-    tls: true
     network: ws
     ws-opts:
-      path: /kos-nanat-decoder
+      path: /github.com/Alvin9999
       headers:
-        Host: sctest1.dr-ping.ir
-  - name: 🇯🇵JP_1|2.5MB/s - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6003
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_5|1.2MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_1|2.8MB/s - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6001
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_6|2.6MB/s - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬SG_2|1.3MB/s - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6004
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧GB_3|2.2MB/s - undefinedms
-    type: vmess
-    server: 82.40.62.106
-    port: 2080
-    uuid: cd682302-c9d7-4c0d-bada-52e7d652c22c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_9|1.9MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: raw
-  - name: 🇯🇵JP_2|2.4MB/s - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6003
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_10|2.4MB/s - undefinedms
-    type: vmess
-    server: cf.scpnb.top
-    port: 443
-    uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
-      headers:
-        Host: vienna-bread-threats-amendment.trycloudflare.com
-  - name: 🇸🇬SG_3|3.6MB/s - undefinedms
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: ip18.6929198.xyz
   - name: 🇭🇰 香港 5 - undefinedms
     type: vmess
     server: 103.181.164.145
@@ -1441,6 +1316,37 @@ proxies:
       path: /ray
       headers:
         Host: yd3.ainivp.com
+  - name: 🇺🇸US_3|1.9MB/s - undefinedms
+    type: vmess
+    server: 38.60.176.80
+    port: 52620
+    uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /8704a4ad
+      headers:
+        Host: 38.60.176.80
+  - name: 🇸🇬SG_1|2.5MB/s - undefinedms
+    type: vmess
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇩MD_1|2.1MB/s - undefinedms
+    type: vmess
+    server: 62.3.12.140
+    port: 2087
+    uuid: 90a7a201-de71-4696-be44-f2c04aa36348
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1913,25 +1819,12 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 🇸🇬SG_1|1.4MB/s - undefinedms
-      - 🇳🇱NL_1|2.5MB/s - undefinedms
-      - 🇯🇵JP_1|2.5MB/s - undefinedms
-      - 🇺🇸US_5|1.2MB/s - undefinedms
-      - 🇭🇰HK_1|2.8MB/s - undefinedms
-      - 🇺🇸US_6|2.6MB/s - undefinedms
-      - 🇸🇬SG_2|1.3MB/s - undefinedms
-      - 🇬🇧GB_3|2.2MB/s - undefinedms
-      - 🇺🇸US_9|1.9MB/s - undefinedms
-      - 🇯🇵JP_2|2.4MB/s - undefinedms
-      - 🇺🇸US_10|2.4MB/s - undefinedms
-      - 🇸🇬SG_3|3.6MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇭🇰 香港 5 - undefinedms
       - 🇭🇰 香港 6 - undefinedms
       - 🇭🇰 香港 7 - undefinedms
@@ -2061,6 +1954,9 @@ proxy-groups:
       - 🇮🇩 印度尼西亚 439 - undefinedms
       - 🇮🇩 印度尼西亚 441 - undefinedms
       - 🇨🇳 中国 447 - undefinedms
+      - 🇺🇸US_3|1.9MB/s - undefinedms
+      - 🇸🇬SG_1|2.5MB/s - undefinedms
+      - 🇲🇩MD_1|2.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2103,25 +1999,12 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 🇸🇬SG_1|1.4MB/s - undefinedms
-      - 🇳🇱NL_1|2.5MB/s - undefinedms
-      - 🇯🇵JP_1|2.5MB/s - undefinedms
-      - 🇺🇸US_5|1.2MB/s - undefinedms
-      - 🇭🇰HK_1|2.8MB/s - undefinedms
-      - 🇺🇸US_6|2.6MB/s - undefinedms
-      - 🇸🇬SG_2|1.3MB/s - undefinedms
-      - 🇬🇧GB_3|2.2MB/s - undefinedms
-      - 🇺🇸US_9|1.9MB/s - undefinedms
-      - 🇯🇵JP_2|2.4MB/s - undefinedms
-      - 🇺🇸US_10|2.4MB/s - undefinedms
-      - 🇸🇬SG_3|3.6MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇭🇰 香港 5 - undefinedms
       - 🇭🇰 香港 6 - undefinedms
       - 🇭🇰 香港 7 - undefinedms
@@ -2251,6 +2134,9 @@ proxy-groups:
       - 🇮🇩 印度尼西亚 439 - undefinedms
       - 🇮🇩 印度尼西亚 441 - undefinedms
       - 🇨🇳 中国 447 - undefinedms
+      - 🇺🇸US_3|1.9MB/s - undefinedms
+      - 🇸🇬SG_1|2.5MB/s - undefinedms
+      - 🇲🇩MD_1|2.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

@@ -5,6 +5,41 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 未知 VMESS-135 | free-nodes - undefinedms
+    type: vmess
+    server: 57.151.100.27
+    port: 10086
+    uuid: 550e8400-e29b-41d4-a716-446655440000
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 未知 VMESS-177 | free-nodes - undefinedms
+    type: vmess
+    server: s611.ccgfw.online
+    port: 443
+    uuid: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ssp-ws
+      headers:
+        Host: s611.ccgfw.online
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,107 +66,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 未知 VMESS-137 | free-nodes - undefinedms
-    type: vmess
-    server: 57.151.100.27
-    port: 10086
-    uuid: 550e8400-e29b-41d4-a716-446655440000
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-138 | free-nodes - undefinedms
-    type: vmess
-    server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-    port: 10011
-    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  - name: 未知 VMESS-139 | free-nodes - undefinedms
-    type: vmess
-    server: renderer-stream-1-411.mirra.now
-    port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-1-411.mirra.now
-  - name: 未知 VMESS-175 | free-nodes - undefinedms
-    type: vmess
-    server: s611.ccgfw.online
-    port: 443
-    uuid: 723af53a-b131-3270-8ce0-13f8ecaaa322
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ssp-ws
-      headers:
-        Host: s611.ccgfw.online
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.179.142.212
-    port: 22047
-    uuid: 948763b5-a064-453c-a015-185cb183bbfe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 103.179.142.212
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_8|1.2MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
     server: 154.37.223.19
@@ -765,17 +699,11 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 未知 VMESS-135 | free-nodes - undefinedms
+      - 未知 VMESS-177 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 未知 VMESS-137 | free-nodes - undefinedms
-      - 未知 VMESS-138 | free-nodes - undefinedms
-      - 未知 VMESS-139 | free-nodes - undefinedms
-      - 未知 VMESS-175 | free-nodes - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 🇺🇸US_8|1.2MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：06-10 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -835,17 +763,11 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 未知 VMESS-135 | free-nodes - undefinedms
+      - 未知 VMESS-177 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 未知 VMESS-137 | free-nodes - undefinedms
-      - 未知 VMESS-138 | free-nodes - undefinedms
-      - 未知 VMESS-139 | free-nodes - undefinedms
-      - 未知 VMESS-175 | free-nodes - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 🇺🇸US_8|1.2MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：06-10 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms

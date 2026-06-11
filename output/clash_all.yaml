@@ -5,41 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 未知 VMESS-140 | free-nodes - undefinedms
-    type: vmess
-    server: 57.151.100.27
-    port: 10086
-    uuid: 550e8400-e29b-41d4-a716-446655440000
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-141 | free-nodes - undefinedms
-    type: vmess
-    server: renderer-stream-1-411.mirra.now
-    port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-1-411.mirra.now
-  - name: 未知 VMESS-183 | free-nodes - undefinedms
-    type: vmess
-    server: s611.ccgfw.online
-    port: 443
-    uuid: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ssp-ws
-      headers:
-        Host: s611.ccgfw.online
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -66,7 +31,29 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 法国 ovh - undefinedms
+  - name: 未知 VMESS-134 | free-nodes - undefinedms
+    type: vmess
+    server: 1b267619c4812cc46ee281747884ca50.qos.onl
+    port: 10056
+    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+  - name: 未知 VMESS-135 | free-nodes - undefinedms
+    type: vmess
+    server: 57.151.100.27
+    port: 10086
+    uuid: 550e8400-e29b-41d4-a716-446655440000
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 未知 VMESS-136 | free-nodes - undefinedms
     type: vmess
     server: 51.254.133.152
     port: 80
@@ -79,6 +66,19 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
+  - name: 未知 VMESS-178 | free-nodes - undefinedms
+    type: vmess
+    server: s611.ccgfw.online
+    port: 443
+    uuid: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ssp-ws
+      headers:
+        Host: s611.ccgfw.online
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -92,87 +92,131 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇮🇪IE_1|2.5MB/s - undefinedms
+  - name: 每天更新，请加电报群防止失联 - undefinedms
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
-    server: 154.37.223.19
-    port: 56972
-    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 日期：06-10 - undefinedms
+  - name: 日期：06-11 - undefinedms
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
   - name: 免费VPN：https://tt.vg/OWeaF - undefinedms
     type: vmess
-    server: 103.182.97.12
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 德国 - undefinedms
+  - name: 英国 - undefinedms
     type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 法国 - undefinedms
+  - name: 英国 - undefinedms
     type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 中国香港 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 日本 - undefinedms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 - undefinedms
+  - name: 英国 - undefinedms
     type: vmess
     server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    cipher: aes-128-gcm
+    cipher: auto
     tls: false
     network: tcp
+  - name: 英国 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 日本 - undefinedms
+    type: vmess
+    server: 2a02:6ea0:d32f::f8fe:349b
+    port: 24202
+    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2a02:6ea0:d32f::f8fe:349b
+  - name: 法国 - undefinedms
+    type: vmess
+    server: 172.67.187.219
+    port: 80
+    uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+      headers:
+        Host: accklsj.bufu.us.ci
   - name: 美国 - undefinedms
     type: vmess
     server: 82.198.246.250
@@ -191,37 +235,119 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 - undefinedms
+  - name: 日本 - undefinedms
     type: vmess
-    server: 103.179.142.212
-    port: 22047
-    uuid: 948763b5-a064-453c-a015-185cb183bbfe
-    alterId: 0
+    server: v6.hdacd.com
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 103.179.142.212
-  - name: 未知 - undefinedms
+    network: tcp
+  - name: 法国 - undefinedms
     type: vmess
-    server: renderer-stream-1-411.mirra.now
-    port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-    alterId: 0
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-1-411.mirra.now
-  - name: 英國_4 - undefinedms
+    tls: false
+    network: tcp
+  - name: 日本 - undefinedms
+    type: vmess
+    server: 103.182.97.12
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 中国香港 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 154.37.223.19
+    port: 56972
+    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: http
+  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
+    type: vmess
+    server: world.t.51guangtaobao.com
+    port: 2510
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
     alterId: 0
     cipher: auto
     tls: false
@@ -369,42 +495,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
-    type: vmess
-    server: world.t.51guangtaobao.com
-    port: 2510
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6004
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -734,27 +824,41 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 未知 VMESS-140 | free-nodes - undefinedms
-      - 未知 VMESS-141 | free-nodes - undefinedms
-      - 未知 VMESS-183 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 法国 ovh - undefinedms
+      - 未知 VMESS-134 | free-nodes - undefinedms
+      - 未知 VMESS-135 | free-nodes - undefinedms
+      - 未知 VMESS-136 | free-nodes - undefinedms
+      - 未知 VMESS-178 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇮🇪IE_1|2.5MB/s - undefinedms
+      - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
-      - 日期：06-10 - undefinedms
+      - 日期：06-11 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
-      - 德国 - undefinedms
-      - 法国 - undefinedms
-      - 中国香港 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
       - 日本 - undefinedms
+      - 法国 - undefinedms
       - 美国 - undefinedms
       - 美国 - undefinedms
-      - 美国 - undefinedms
-      - 美国 - undefinedms
-      - 未知 - undefinedms
-      - 英國_4 - undefinedms
+      - 日本 - undefinedms
+      - 法国 - undefinedms
+      - 日本 - undefinedms
+      - 中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -766,10 +870,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -801,27 +901,41 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 未知 VMESS-140 | free-nodes - undefinedms
-      - 未知 VMESS-141 | free-nodes - undefinedms
-      - 未知 VMESS-183 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 法国 ovh - undefinedms
+      - 未知 VMESS-134 | free-nodes - undefinedms
+      - 未知 VMESS-135 | free-nodes - undefinedms
+      - 未知 VMESS-136 | free-nodes - undefinedms
+      - 未知 VMESS-178 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇮🇪IE_1|2.5MB/s - undefinedms
+      - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
-      - 日期：06-10 - undefinedms
+      - 日期：06-11 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
-      - 德国 - undefinedms
-      - 法国 - undefinedms
-      - 中国香港 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
+      - 英国 - undefinedms
       - 日本 - undefinedms
+      - 法国 - undefinedms
       - 美国 - undefinedms
       - 美国 - undefinedms
-      - 美国 - undefinedms
-      - 美国 - undefinedms
-      - 未知 - undefinedms
-      - 英國_4 - undefinedms
+      - 日本 - undefinedms
+      - 法国 - undefinedms
+      - 日本 - undefinedms
+      - 中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -833,10 +947,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

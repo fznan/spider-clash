@@ -18,59 +18,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 未知 VMESS-141 | free-nodes - undefinedms
-    type: vmess
-    server: 129.146.143.80
-    port: 48111
-    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-142 | free-nodes - undefinedms
-    type: vmess
-    server: 51.254.133.152
-    port: 80
-    uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: fr5.niekotin.de
-  - name: 未知 VMESS-143 | free-nodes - undefinedms
-    type: vmess
-    server: 57.151.100.27
-    port: 10086
-    uuid: 550e8400-e29b-41d4-a716-446655440000
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-144 | free-nodes - undefinedms
-    type: vmess
-    server: node-de.connectsuite.org
-    port: 2053
-    uuid: fd169a0a-5c32-4f3e-9b6c-28dd35f2a5e5
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 未知 VMESS-145 | free-nodes - undefinedms
-    type: vmess
-    server: renderer-stream-1-411.mirra.now
-    port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-1-411.mirra.now
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -97,19 +44,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇩🇪DE_3|1.8MB/s - undefinedms
+  - name: 未知 VMESS-141 | free-nodes - undefinedms
     type: vmess
-    server: jd.103672.xyz
-    port: 8080
-    uuid: c14a83db-f333-452e-acff-93b8f7160b10
+    server: 51.254.133.152
+    port: 80
+    uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /vmess
       headers:
-        Host: dedasabo.103466.xyz
+        Host: fr5.niekotin.de
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -664,14 +611,9 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 未知 VMESS-141 | free-nodes - undefinedms
-      - 未知 VMESS-142 | free-nodes - undefinedms
-      - 未知 VMESS-143 | free-nodes - undefinedms
-      - 未知 VMESS-144 | free-nodes - undefinedms
-      - 未知 VMESS-145 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 🇩🇪DE_3|1.8MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -724,14 +666,9 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 未知 VMESS-141 | free-nodes - undefinedms
-      - 未知 VMESS-142 | free-nodes - undefinedms
-      - 未知 VMESS-143 | free-nodes - undefinedms
-      - 未知 VMESS-144 | free-nodes - undefinedms
-      - 未知 VMESS-145 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 🇩🇪DE_3|1.8MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

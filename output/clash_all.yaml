@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 未知 VMESS-133 | free-nodes - undefinedms
+  - name: 未知 VMESS-135 | free-nodes - undefinedms
     type: vmess
     server: 51.254.133.152
     port: 80
@@ -18,6 +18,80 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
+  - name: 未知 VMESS-136 | free-nodes - undefinedms
+    type: vmess
+    server: 57.151.100.27
+    port: 10086
+    uuid: 550e8400-e29b-41d4-a716-446655440000
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 未知 VMESS-137 | free-nodes - undefinedms
+    type: vmess
+    server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+    port: 10020
+    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  - name: 未知 VMESS-138 | free-nodes - undefinedms
+    type: vmess
+    server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+    port: 10057
+    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+  - name: 未知 VMESS-139 | free-nodes - undefinedms
+    type: vmess
+    server: myvpshosting.name.ng
+    port: 80
+    uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: myvpshosting.name.ng
+  - name: 未知 VMESS-140 | free-nodes - undefinedms
+    type: vmess
+    server: 45.63.75.211
+    port: 44855
+    uuid: 5164f226-f833-4e5b-8903-094a3460cd41
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /5164f226
+      headers:
+        Host: 45.63.75.211
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,19 +118,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 中国香港 - undefinedms
     type: vmess
     server: 47.244.120.197
@@ -641,10 +702,15 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 未知 VMESS-133 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 未知 VMESS-135 | free-nodes - undefinedms
+      - 未知 VMESS-136 | free-nodes - undefinedms
+      - 未知 VMESS-137 | free-nodes - undefinedms
+      - 未知 VMESS-138 | free-nodes - undefinedms
+      - 未知 VMESS-139 | free-nodes - undefinedms
+      - 未知 VMESS-140 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 中国香港 - undefinedms
       - 日本 - undefinedms
       - 日本 - undefinedms
@@ -699,10 +765,15 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 未知 VMESS-133 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 未知 VMESS-135 | free-nodes - undefinedms
+      - 未知 VMESS-136 | free-nodes - undefinedms
+      - 未知 VMESS-137 | free-nodes - undefinedms
+      - 未知 VMESS-138 | free-nodes - undefinedms
+      - 未知 VMESS-139 | free-nodes - undefinedms
+      - 未知 VMESS-140 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 中国香港 - undefinedms
       - 日本 - undefinedms
       - 日本 - undefinedms

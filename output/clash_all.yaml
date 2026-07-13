@@ -18,6 +18,15 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
+  - name: 德国 法尔肯施泰因HETZNER - undefinedms
+    type: vmess
+    server: me.echo-license.gr
+    port: 14991
+    uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,15 +53,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇺🇸US_1|3.9MB/s - undefinedms
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_美国_114 - undefinedms
     type: vmess
     server: guanwang.awsno.com
@@ -106,60 +106,6 @@ proxies:
       path: /
       headers:
         Host: n1747624274.4u9ma.icu
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 154.37.223.19
-    port: 56972
-    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -303,6 +249,60 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 154.37.223.19
+    port: 56972
+    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: http
+  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
     type: vmess
     server: v24.hdacd.com
@@ -660,20 +660,14 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 德国 法尔肯施泰因HETZNER - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|3.9MB/s - undefinedms
       - 🇺🇸_美国_114 - undefinedms
       - 🇭🇰_香港_115 - undefinedms
       - 🇭🇰_香港_116 - undefinedms
       - 🇭🇰_香港_419 - undefinedms
       - 🇭🇰_香港_420 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -685,6 +679,12 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
       - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
@@ -720,20 +720,14 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 德国 法尔肯施泰因HETZNER - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|3.9MB/s - undefinedms
       - 🇺🇸_美国_114 - undefinedms
       - 🇭🇰_香港_115 - undefinedms
       - 🇭🇰_香港_116 - undefinedms
       - 🇭🇰_香港_419 - undefinedms
       - 🇭🇰_香港_420 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -745,6 +739,12 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
       - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms

@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,6 +31,46 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 台湾省台中市 中华电信 - undefinedms
+    type: vmess
+    server: family.bucket.x9.kfc-520.com
+    port: 10038
+    uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
+  - name: 德国 法尔肯施泰因HETZNER - undefinedms
+    type: vmess
+    server: me.echo-license.gr
+    port: 14991
+    uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇺🇸US_7|3.3MB/s - undefinedms
+    type: vmess
+    server: c722s801.portablesubmarines.com
+    port: 16025
+    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
   - name: 🇭🇰_香港_142 - undefinedms
     type: vmess
     server: 47.83.221.185
@@ -115,24 +142,6 @@ proxies:
       path: /
       headers:
         Host: n1747624274.4u9ma.icu
-  - name: 🇺🇸US_2|2.6MB/s - undefinedms
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_6|1.7MB/s - undefinedms
-    type: vmess
-    server: c722s801.portablesubmarines.com
-    port: 16025
-    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -659,9 +668,12 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 台湾省台中市 中华电信 - undefinedms
+      - 德国 法尔肯施泰因HETZNER - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_7|3.3MB/s - undefinedms
       - 🇭🇰_香港_142 - undefinedms
       - 🇭🇰_香港_144 - undefinedms
       - 🇺🇸_美国_147 - undefinedms
@@ -669,8 +681,6 @@ proxy-groups:
       - 🇭🇰_香港_153 - undefinedms
       - 🏳️_未知_399 - undefinedms
       - 🇭🇰_香港_400 - undefinedms
-      - 🇺🇸US_2|2.6MB/s - undefinedms
-      - 🇺🇸US_6|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -719,9 +729,12 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 台湾省台中市 中华电信 - undefinedms
+      - 德国 法尔肯施泰因HETZNER - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_7|3.3MB/s - undefinedms
       - 🇭🇰_香港_142 - undefinedms
       - 🇭🇰_香港_144 - undefinedms
       - 🇺🇸_美国_147 - undefinedms
@@ -729,8 +742,6 @@ proxy-groups:
       - 🇭🇰_香港_153 - undefinedms
       - 🏳️_未知_399 - undefinedms
       - 🇭🇰_香港_400 - undefinedms
-      - 🇺🇸US_2|2.6MB/s - undefinedms
-      - 🇺🇸US_6|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

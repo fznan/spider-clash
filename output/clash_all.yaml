@@ -44,52 +44,7 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇻🇳_越南_5 - undefinedms
-    type: vmess
-    server: 103.166.184.134
-    port: 27467
-    uuid: 93637105-bcea-4a68-b089-1bb6091f0b16
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_48 - undefinedms
-    type: vmess
-    server: 47.76.127.88
-    port: 5566
-    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国_55 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_美国_56 - undefinedms
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇨🇳_中国_58 - undefinedms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇫🇷_法国_81 - undefinedms
+  - name: 🇫🇷_法国_106 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:225::3
     port: 55009
@@ -102,58 +57,6 @@ proxies:
       path: /0zNW56sF
       headers:
         Host: 2001:bc8:32d7:225::3
-  - name: 🇭🇰_香港_185 - undefinedms
-    type: vmess
-    server: 47.244.120.197
-    port: 44867
-    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /arki?ed=2048
-      headers:
-        Host: 47.244.120.197
-  - name: 🇭🇰_香港_186 - undefinedms
-    type: vmess
-    server: n1747624274.4u9ma.icu
-    port: 443
-    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1747624274.4u9ma.icu
-  - name: 🇭🇰_香港_189 - undefinedms
-    type: vmess
-    server: 47.244.120.197
-    port: 36703
-    uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /arki?ed=2048
-      headers:
-        Host: 47.244.120.197
-  - name: 🇭🇰_香港_190 - undefinedms
-    type: vmess
-    server: n1747624260.4u9ma.icu
-    port: 443
-    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1747624260.4u9ma.icu
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -683,16 +586,7 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇻🇳_越南_5 - undefinedms
-      - 🇭🇰_香港_48 - undefinedms
-      - 🇨🇳_中国_55 - undefinedms
-      - 🇺🇸_美国_56 - undefinedms
-      - 🇨🇳_中国_58 - undefinedms
-      - 🇫🇷_法国_81 - undefinedms
-      - 🇭🇰_香港_185 - undefinedms
-      - 🇭🇰_香港_186 - undefinedms
-      - 🇭🇰_香港_189 - undefinedms
-      - 🇭🇰_香港_190 - undefinedms
+      - 🇫🇷_法国_106 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -744,16 +638,7 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇻🇳_越南_5 - undefinedms
-      - 🇭🇰_香港_48 - undefinedms
-      - 🇨🇳_中国_55 - undefinedms
-      - 🇺🇸_美国_56 - undefinedms
-      - 🇨🇳_中国_58 - undefinedms
-      - 🇫🇷_法国_81 - undefinedms
-      - 🇭🇰_香港_185 - undefinedms
-      - 🇭🇰_香港_186 - undefinedms
-      - 🇭🇰_香港_189 - undefinedms
-      - 🇭🇰_香港_190 - undefinedms
+      - 🇫🇷_法国_106 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

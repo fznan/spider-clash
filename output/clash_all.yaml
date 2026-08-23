@@ -297,41 +297,6 @@ proxies:
       path: /wes
       headers:
         Host: US122209.ssgreen.org
-  - name: 🇸🇬SG_1|5.0MB/s - undefinedms
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_1|5.5MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16632
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  - name: 🇭🇰HK_2|3.4MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16632
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -882,9 +847,6 @@ proxy-groups:
       - 🏳️_未知_353 - undefinedms
       - 🏳️_未知_426 - undefinedms
       - 🏳️_未知_445 - undefinedms
-      - 🇸🇬SG_1|5.0MB/s - undefinedms
-      - 🇭🇰HK_1|5.5MB/s - undefinedms
-      - 🇭🇰HK_2|3.4MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -957,9 +919,6 @@ proxy-groups:
       - 🏳️_未知_353 - undefinedms
       - 🏳️_未知_426 - undefinedms
       - 🏳️_未知_445 - undefinedms
-      - 🇸🇬SG_1|5.0MB/s - undefinedms
-      - 🇭🇰HK_1|5.5MB/s - undefinedms
-      - 🇭🇰HK_2|3.4MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

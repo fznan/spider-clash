@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,112 +44,7 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇺🇸_美国_113 - undefinedms
-    type: vmess
-    server: 103.179.142.158
-    port: 50269
-    uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国_118 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_美国_125 - undefinedms
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇫🇷_法国_128 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::2
-    port: 23388
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::2
-  - name: 🇫🇷_法国_129 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::2
-    port: 23388
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::2
-  - name: 🇫🇷_法国_130 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::2
-    port: 23388
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::2
-  - name: 🇺🇸_美国_498 - undefinedms
-    type: vmess
-    server: us-23.hihu.net
-    port: 443
-    uuid: e9674560-9d1a-11f1-b333-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ayve3q7z
-      headers:
-        Host: chatbuzzteam.ir
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇭🇰HK_1|6.0MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16632
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  - name: 🇭🇰HK_2|4.4MB/s - undefinedms
+  - name: 🇭🇰HK_1|3.2MB/s - undefinedms
     type: vmess
     server: planb.mojcn.com.linuxlh.xin
     port: 16632
@@ -769,22 +677,93 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇺🇸_美国_113 - undefinedms
+    type: vmess
+    server: 103.179.142.158
+    port: 50269
+    uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_中国_118 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国_125 - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇫🇷_法国_128 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🇫🇷_法国_129 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🇫🇷_法国_130 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🇺🇸_美国_498 - undefinedms
+    type: vmess
+    server: us-23.hihu.net
+    port: 443
+    uuid: e9674560-9d1a-11f1-b333-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ayve3q7z
+      headers:
+        Host: chatbuzzteam.ir
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 🇺🇸_美国_113 - undefinedms
-      - 🇨🇳_中国_118 - undefinedms
-      - 🇺🇸_美国_125 - undefinedms
-      - 🇫🇷_法国_128 - undefinedms
-      - 🇫🇷_法国_129 - undefinedms
-      - 🇫🇷_法国_130 - undefinedms
-      - 🇺🇸_美国_498 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|6.0MB/s - undefinedms
-      - 🇭🇰HK_2|4.4MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 🇭🇰HK_1|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -837,24 +816,23 @@ proxy-groups:
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_美国_113 - undefinedms
+      - 🇨🇳_中国_118 - undefinedms
+      - 🇺🇸_美国_125 - undefinedms
+      - 🇫🇷_法国_128 - undefinedms
+      - 🇫🇷_法国_129 - undefinedms
+      - 🇫🇷_法国_130 - undefinedms
+      - 🇺🇸_美国_498 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 🇺🇸_美国_113 - undefinedms
-      - 🇨🇳_中国_118 - undefinedms
-      - 🇺🇸_美国_125 - undefinedms
-      - 🇫🇷_法国_128 - undefinedms
-      - 🇫🇷_法国_129 - undefinedms
-      - 🇫🇷_法国_130 - undefinedms
-      - 🇺🇸_美国_498 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|6.0MB/s - undefinedms
-      - 🇭🇰HK_2|4.4MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 🇭🇰HK_1|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -907,5 +885,12 @@ proxy-groups:
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_美国_113 - undefinedms
+      - 🇨🇳_中国_118 - undefinedms
+      - 🇺🇸_美国_125 - undefinedms
+      - 🇫🇷_法国_128 - undefinedms
+      - 🇫🇷_法国_129 - undefinedms
+      - 🇫🇷_法国_130 - undefinedms
+      - 🇺🇸_美国_498 - undefinedms
 rules:
   - MATCH,Proxy

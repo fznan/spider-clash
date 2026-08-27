@@ -44,19 +44,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 🇺🇸_美国_26 - undefinedms
     type: vmess
     server: guanwang.awsno.com
@@ -145,6 +132,50 @@ proxies:
       path: /
       headers:
         Host: rush-t2tvv.ceeopp.site
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇺🇸US_2|4.4MB/s - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_3|3.8MB/s - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇹🇼TW_2|5.0MB/s - undefinedms
+    type: vmess
+    server: 120.240.142.21
+    port: 11972
+    uuid: d19c5396-aef2-b508-3abb-e9f93c8b0cfc
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /adb4c2cc-9e77-d6fc-4dba-e06b15659469
+      headers:
+        Host: tms.dingtalk.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -718,7 +749,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_美国_26 - undefinedms
       - 🇨🇳_中国_30 - undefinedms
       - 🇨🇳_中国_31 - undefinedms
@@ -727,6 +757,10 @@ proxy-groups:
       - 🇫🇷_法国_60 - undefinedms
       - 🇫🇷_法国_61 - undefinedms
       - 🏳️_未知_378 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇺🇸US_2|4.4MB/s - undefinedms
+      - 🇺🇸US_3|3.8MB/s - undefinedms
+      - 🇹🇼TW_2|5.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -782,7 +816,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_美国_26 - undefinedms
       - 🇨🇳_中国_30 - undefinedms
       - 🇨🇳_中国_31 - undefinedms
@@ -791,6 +824,10 @@ proxy-groups:
       - 🇫🇷_法国_60 - undefinedms
       - 🇫🇷_法国_61 - undefinedms
       - 🏳️_未知_378 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇺🇸US_2|4.4MB/s - undefinedms
+      - 🇺🇸US_3|3.8MB/s - undefinedms
+      - 🇹🇼TW_2|5.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

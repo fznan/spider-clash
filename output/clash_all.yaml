@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 巴西圣保罗 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 188.114.96.3
+    port: 8443
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /lMnsZUN4/
+      headers:
+        Host: v2ray1.dozapp.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -538,6 +551,7 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - 巴西圣保罗 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
@@ -585,6 +599,7 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - 巴西圣保罗 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms

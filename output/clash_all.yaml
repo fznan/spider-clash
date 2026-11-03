@@ -5,55 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CA VMESS-02 | free-nodes - undefinedms
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: 未知 VMESS-14 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-15 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-16 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-17 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -93,6 +44,19 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
+  - name: CA VMESS-03 | free-nodes - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
   - name: 🇫🇷_法国 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:1a9::3
@@ -101,20 +65,6 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    network: ws
-    ws-opts:
-      path: >-
-        /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-      headers:
-        Host: 2001:bc8:32d7:1a9::3
-  - name: 🇫🇷_法国 (3) - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::3
-    port: 18901
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
     network: ws
     ws-opts:
       path: >-
@@ -134,6 +84,33 @@ proxies:
       path: /game/resources
       headers:
         Host: mdk.mdmekjll.best
+  - name: 🇫🇷_法国 (2) - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::3
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::3
+  - name: 🇫🇷_法国 (3) - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::3
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      headers:
+        Host: 2001:bc8:32d7:1a9::3
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -628,17 +605,14 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - CA VMESS-02 | free-nodes - undefinedms
-      - 未知 VMESS-14 | free-nodes - undefinedms
-      - 未知 VMESS-15 | free-nodes - undefinedms
-      - 未知 VMESS-16 | free-nodes - undefinedms
-      - 未知 VMESS-17 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - CA VMESS-03 | free-nodes - undefinedms
       - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 (3) - undefinedms
       - 🇹🇼_台湾 - undefinedms
+      - 🇫🇷_法国 (2) - undefinedms
+      - 🇫🇷_法国 (3) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -683,17 +657,14 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - CA VMESS-02 | free-nodes - undefinedms
-      - 未知 VMESS-14 | free-nodes - undefinedms
-      - 未知 VMESS-15 | free-nodes - undefinedms
-      - 未知 VMESS-16 | free-nodes - undefinedms
-      - 未知 VMESS-17 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - CA VMESS-03 | free-nodes - undefinedms
       - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 (3) - undefinedms
       - 🇹🇼_台湾 - undefinedms
+      - 🇫🇷_法国 (2) - undefinedms
+      - 🇫🇷_法国 (3) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms

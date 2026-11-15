@@ -5,15 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: US VMESS-18 | free-nodes - undefinedms
-    type: vmess
-    server: 47.99.219.144
-    port: 443
-    uuid: 291b5d4a-19ee-4f22-91df-4dc43850b970
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -258,15 +249,6 @@ proxies:
     server: 23.165.200.150
     port: 52080
     uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_4|4.6MB/s - undefinedms
-    type: vmess
-    server: 47.99.219.144
-    port: 443
-    uuid: 291b5d4a-19ee-4f22-91df-4dc43850b970
     alterId: 0
     cipher: auto
     tls: false
@@ -795,7 +777,6 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - US VMESS-18 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
@@ -816,7 +797,6 @@ proxy-groups:
       - 日期：11-15 - undefinedms
       - 🇺🇸_美国 (11) - undefinedms
       - 🇩🇪_德国 (4) - undefinedms
-      - 🇺🇸US_4|4.6MB/s - undefinedms
       - 🇺🇸_US_美国_IPV4 (2) - undefinedms
       - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
       - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
@@ -863,7 +843,6 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - US VMESS-18 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
@@ -884,7 +863,6 @@ proxy-groups:
       - 日期：11-15 - undefinedms
       - 🇺🇸_美国 (11) - undefinedms
       - 🇩🇪_德国 (4) - undefinedms
-      - 🇺🇸US_4|4.6MB/s - undefinedms
       - 🇺🇸_US_美国_IPV4 (2) - undefinedms
       - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
       - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'

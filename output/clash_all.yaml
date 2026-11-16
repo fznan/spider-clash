@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 日期：11-16 - undefinedms
     type: vmess
     server: 64.188.97.153
@@ -244,6 +231,93 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇨🇭CH_1|2.7MB/s - undefinedms
+    type: vmess
+    server: 179.43.140.24
+    port: 42831
+    uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_1|1.5MB/s - undefinedms
+    type: vmess
+    server: 192.74.236.148
+    port: 30004
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /path/1733477783705
+      headers:
+        Host: www.91334565.xyz
+  - name: 🇺🇸_US_美国_IPV4 (2) - undefinedms
+    type: vmess
+    server: 172.66.0.1
+    port: 443
+    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: vmess.lbw666.dpdns.org
+  - name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
+    type: vmess
+    server: 172.67.190.164
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
+    type: vmess
+    server: 172.64.145.93
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: 🇨🇳_CN_中国_IPV4 (2) - undefinedms
+    type: vmess
+    server: 39.108.113.127
+    port: 10086
+    uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 39.108.113.127
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -569,58 +643,6 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_IPV4 (2) - undefinedms
-    type: vmess
-    server: 172.66.0.1
-    port: 443
-    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: vmess.lbw666.dpdns.org
-  - name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
-    type: vmess
-    server: 172.67.190.164
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
-    type: vmess
-    server: 172.64.145.93
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: 🇨🇳_CN_中国_IPV4 (2) - undefinedms
-    type: vmess
-    server: 39.108.113.127
-    port: 10086
-    uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 39.108.113.127
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -770,7 +792,6 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 日期：11-16 - undefinedms
       - 🇳🇱_荷兰 (95) - undefinedms
       - 🇨🇿_捷克 - undefinedms
@@ -787,6 +808,13 @@ proxy-groups:
       - 🇮🇳_印度 - undefinedms
       - 🇺🇸_美国 (8) - undefinedms
       - 🇨🇭_瑞士 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇨🇭CH_1|2.7MB/s - undefinedms
+      - 🇺🇸US_1|1.5MB/s - undefinedms
+      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
+      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
+      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
+      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -812,10 +840,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
-      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
-      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
-      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -835,7 +859,6 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 日期：11-16 - undefinedms
       - 🇳🇱_荷兰 (95) - undefinedms
       - 🇨🇿_捷克 - undefinedms
@@ -852,6 +875,13 @@ proxy-groups:
       - 🇮🇳_印度 - undefinedms
       - 🇺🇸_美国 (8) - undefinedms
       - 🇨🇭_瑞士 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇨🇭CH_1|2.7MB/s - undefinedms
+      - 🇺🇸US_1|1.5MB/s - undefinedms
+      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
+      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
+      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
+      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -877,10 +907,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
-      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
-      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
-      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
